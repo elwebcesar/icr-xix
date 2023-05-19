@@ -1,0 +1,390 @@
+.sm-ckm{
+  border: 1px solid #bbbbbb;
+  background: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+.sm-ckm a, .sm-ckm a:hover, .sm-ckm a:focus, .sm-ckm a:active {
+  padding: 13px 20px;
+  /* make room for the toggle button (sub indicator) */
+  padding-right: 58px;
+  color: #555555;
+  line-height: 17px;
+  text-decoration: none;
+}
+.sm-ckm a.current {
+  background: #555555;
+  color: #fff;
+}
+.sm-ckm a.disabled {
+  color: #cccccc;
+}
+.sm-ckm a .sub-arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  left: auto;
+  right: 4px;
+  width: 34px;
+  height: 34px;
+  overflow: hidden;
+  font: bold 14px/34px monospace !important;
+  text-align: center;
+  text-shadow: none;
+  background: rgba(0, 0, 0, 0.08);
+}
+.sm-ckm a .sub-arrow::before {
+  content: '+';
+}
+.sm-ckm a.highlighted .sub-arrow::before {
+  content: '-';
+}
+.sm-ckm li {
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+.sm-ckm > li:first-child {
+  border-top: 0;
+}
+.sm-ckm ul {
+  background: rgba(179, 179, 179, 0.1);
+}
+.sm-ckm ul a, .sm-ckm ul a:hover, .sm-ckm ul a:focus, .sm-ckm ul a:active {
+  font-size: 14px;
+  border-left: 8px solid transparent;
+}
+.sm-ckm ul ul a,
+.sm-ckm ul ul a:hover,
+.sm-ckm ul ul a:focus,
+.sm-ckm ul ul a:active {
+  border-left: 16px solid transparent;
+}
+.sm-ckm ul ul ul a,
+.sm-ckm ul ul ul a:hover,
+.sm-ckm ul ul ul a:focus,
+.sm-ckm ul ul ul a:active {
+  border-left: 24px solid transparent;
+}
+.sm-ckm ul ul ul ul a,
+.sm-ckm ul ul ul ul a:hover,
+.sm-ckm ul ul ul ul a:focus,
+.sm-ckm ul ul ul ul a:active {
+  border-left: 32px solid transparent;
+}
+.sm-ckm ul ul ul ul ul a,
+.sm-ckm ul ul ul ul ul a:hover,
+.sm-ckm ul ul ul ul ul a:focus,
+.sm-ckm ul ul ul ul ul a:active {
+  border-left: 40px solid transparent;
+}
+
+@media (min-width: 900px) {
+  /* Switch to desktop layout
+  -----------------------------------------------
+     These transform the menu tree from
+     collapsible to desktop (navbar + dropdowns)
+  -----------------------------------------------*/
+  /* start... (it's not recommended editing these rules) */
+  .sm-ckm ul {
+    position: absolute;
+    width: 12em;
+  }
+
+  .sm-ckm li {
+    float: left;
+  }
+
+  .sm-ckm.sm-rtl li {
+    float: right;
+  }
+
+  .sm-ckm ul li, .sm-ckm.sm-rtl ul li, .sm-ckm.sm-vertical li {
+    float: none;
+  }
+
+  .sm-ckm a {
+    white-space: nowrap;
+  }
+
+  .sm-ckm ul a, .sm-ckm.sm-vertical a {
+    white-space: normal;
+  }
+
+  .sm-ckm .sm-nowrap > li > a, .sm-ckm .sm-nowrap > li > :not(ul) a {
+    white-space: nowrap;
+  }
+
+  /* ...end */
+  .sm-ckm {
+    background: #fff;
+  }
+  .sm-ckm a, .sm-ckm a:hover, .sm-ckm a:focus, .sm-ckm a:active, .sm-ckm a.highlighted {
+    padding: 11px 20px;
+    color: #555555;
+  }
+  .sm-ckm a:hover, .sm-ckm a:focus, .sm-ckm a:active, .sm-ckm a.highlighted {
+    background: #eeeeee;
+  }
+  .sm-ckm a.current {
+    background: #555555;
+    color: #fff;
+  }
+  .sm-ckm a.disabled {
+    background: #fff;
+    color: #cccccc;
+  }
+  .sm-ckm a.has-submenu {
+    padding-right: 32px;
+  }
+  .sm-ckm a .sub-arrow {
+    top: 50%;
+    margin-top: -8px;
+    right: 20px;
+    width: 8px;
+    height: 16px;
+    font: 14px/16px monospace !important;
+    background: transparent;
+  }
+  .sm-ckm a.highlighted .sub-arrow::before {
+    content: '+';
+  }
+  .sm-ckm > li {
+    border-top: 0;
+    border-left: 1px solid #666;
+  }
+  .sm-ckm > li:first-child {
+    border-left: 0;
+  }
+  .sm-ckm ul {
+    border: 1px solid #bbbbbb;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  .sm-ckm ul a {
+    border: 0 !important;
+  }
+  .sm-ckm ul a.has-submenu {
+    padding-right: 20px;
+  }
+  .sm-ckm ul a .sub-arrow {
+    left: 8px;
+    right: auto;
+  }
+  .sm-ckm ul > li {
+    border-left: 0;
+    border-top: 1px solid #eeeeee;
+  }
+  .sm-ckm ul > li:first-child {
+    border-top: 0;
+  }
+  .sm-ckm .scroll-up,
+  .sm-ckm .scroll-down {
+    position: absolute;
+    display: none;
+    visibility: hidden;
+    overflow: hidden;
+    background: #fff;
+    height: 20px;
+  }
+  .sm-ckm .scroll-up-arrow,
+  .sm-ckm .scroll-down-arrow {
+    position: absolute;
+    top: -2px;
+    left: 50%;
+    margin-left: -8px;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    border-width: 8px;
+    border-style: dashed dashed solid dashed;
+    border-color: transparent transparent #555555 transparent;
+  }
+  .sm-ckm .scroll-down-arrow {
+    top: 6px;
+    border-style: solid dashed dashed dashed;
+    border-color: #555555 transparent transparent transparent;
+  }
+  .sm-ckm.sm-rtl a.has-submenu {
+    padding-right: 20px;
+    padding-left: 32px;
+  }
+  .sm-ckm.sm-rtl a .sub-arrow {
+    left: 20px;
+    right: auto;
+  }
+  .sm-ckm.sm-rtl.sm-vertical a.has-submenu {
+    padding: 11px 20px;
+  }
+  .sm-ckm.sm-rtl.sm-vertical a .sub-arrow {
+    left: auto;
+    right: 8px;
+  }
+  .sm-ckm.sm-rtl > li:first-child {
+    border-left: 1px solid #eeeeee;
+  }
+  .sm-ckm.sm-rtl > li:last-child {
+    border-left: 0;
+  }
+  .sm-ckm.sm-rtl ul a.has-submenu {
+    padding: 11px 20px;
+  }
+  .sm-ckm.sm-rtl ul a .sub-arrow {
+    left: auto;
+    right: 8px;
+  }
+  .sm-ckm.sm-vertical a .sub-arrow {
+    left: 8px;
+    right: auto;
+  }
+  .sm-ckm.sm-vertical li {
+    border-left: 0;
+    border-top: 1px solid #eeeeee;
+  }
+  .sm-ckm.sm-vertical > li:first-child {
+    border-top: 0;
+  }
+
+  /*************************************************************************/
+
+  .sm-ckm a .sub-arrow{
+    top: 50%;
+    margin-top: -2px;
+    right: 12px;
+    width: 0;
+    height: 0;
+    border-width: 4px;
+    border-style: solid dashed dashed dashed;
+    border-color: #555 transparent transparent transparent;
+    background: transparent;
+    border-radius: 0;
+  }
+}
+
+/*************************************************************************/
+/*************************************************************************
+
+.main-nav {
+  background: #fff;
+}
+*/
+
+.main-nav:after {
+  clear: both;
+  content: "\00a0";
+  display: block;
+  height: 0;
+  font: 0px/0 serif;
+  overflow: hidden;
+}
+
+#main-menu {
+  clear: both;
+  border-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  #main-menu {
+    clear: none;
+  }
+}
+
+
+/* Mobile menu toggle button */
+
+.main-menu-btn {
+  float: right;
+  margin: 5px 10px;
+  position: relative;
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+  text-indent: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+/* hamburger icon */
+
+.main-menu-btn-icon,
+.main-menu-btn-icon:before,
+.main-menu-btn-icon:after {
+  position: absolute;
+  top: 50%;
+  left: 2px;
+  height: 2px;
+  width: 24px;
+  background: #333;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.main-menu-btn-icon:before {
+  content: '';
+  top: -7px;
+  left: 0;
+}
+
+.main-menu-btn-icon:after {
+  content: '';
+  top: 7px;
+  left: 0;
+}
+
+
+/* x icon */
+
+#main-menu-state:checked ~ .main-menu-btn .main-menu-btn-icon {
+  height: 0;
+  background: transparent;
+}
+
+#main-menu-state:checked ~ .main-menu-btn .main-menu-btn-icon:before {
+  top: 0;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#main-menu-state:checked ~ .main-menu-btn .main-menu-btn-icon:after {
+  top: 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+/* hide menu state checkbox (keep it visible to screen readers) */
+
+#main-menu-state {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+
+/* hide the menu in mobile view */
+
+#main-menu-state:not(:checked) ~ #main-menu {
+  display: none;
+}
+
+#main-menu-state:checked ~ #main-menu {
+  display: block;
+  clear: both;
+}
+
+@media (min-width: 990px) {
+  /* hide the button in desktop view */
+  .main-menu-btn {
+    position: absolute;
+    top: -99999px;
+  }
+  /* always show the menu in desktop view */
+  #main-menu-state:not(:checked) ~ #main-menu {
+    display: block;
+  }
+}

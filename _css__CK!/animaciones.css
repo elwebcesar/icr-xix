@@ -1,0 +1,96 @@
+/******************************************************************************************************************
+Ckm!
+Web, Apps % Multimedia
+www.ckm.co
+2020
+******************************************************************************************************************/
+
+/************************************************************************************************/
+/************************************************************************************************
+ANIMACIONES
+/************************************************************************************************/
+/************************************************************************************************/
+
+@keyframes destello5{
+	50%{ opacity: 0; }
+}
+
+.haz-05{
+	/*
+	animation-name: example;
+	animation-duration: 4s;
+	*/
+	animation: destello5 0.4s linear infinite;
+}
+
+
+@keyframes destello4{
+	50%{ opacity: 0; }
+}
+
+.haz-04{
+	animation: destello4 0.2s linear infinite;
+}
+
+
+@keyframes destello2{
+	50%{ opacity: 0.5; }
+}
+
+.haz-02{
+	animation: destello2 0.1s linear infinite;
+}
+
+
+@keyframes destello1{
+	0%{ transform: translateX(-50%) scale(1); }
+	50%{ transform: translateX(-50%) scale(1.1); }
+	100%{ transform: translateX(-50%) scale(1); }
+}
+
+.haz-01{
+	animation: destello1 0.3s linear infinite;
+}
+
+
+@keyframes reflejo{
+	0%{ opacity: 0; }
+	5%{ opacity: 1; }
+	10%{ opacity: 0; }
+	15%{ opacity: 1; }
+	20%{ opacity: 0; }
+}
+
+.reflejo{
+	animation: reflejo 1.4s linear infinite;
+}
+
+
+@keyframes salta{
+	50%{ transform: translate(-50%, -58%) scaleY(1.05); }
+	75%{ transform: translate(-50%, -52%) scaleY(0.95); }
+	/*
+	0%{ transform: translate(-50%, -44%) scaleY(1); }
+	5%{ transform: translate(-50%, -54%) scaleY(1.1); }
+	10%{ transform: translate(-50%, -44%) scaleY(1); }
+	15%{ transform: translate(-50%, -54%) scaleY(1.1); }
+	20%{ transform: translate(-50%, -44%) scaleY(1); }
+	*/
+}
+
+.inicio.man .caras, .inicio.girl .girls{
+	animation: salta 0.6s linear infinite;
+}
+
+
+@keyframes lados{
+	/*
+	33%{ transform: translate(-50%, -50%) skewY(14deg); }
+	66%{ transform: translate(-50%, -50%) rotate(-14deg); }
+	*/
+	50%{ transform: translate(-50%, -50%) scale(0.9); }
+}
+
+.experiencia .skin{
+	animation: lados 0.8s linear infinite;
+}

@@ -1,0 +1,896 @@
+<!--[if lt IE 7 ]> <html lang="es" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="es" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="es" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="es" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> 
+<html lang="es" class="no-js"> <!--<![endif]--><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <title>Festival Ibagué Ciudad Rock</title>
+    <meta name="description" content="Festival Ibagué ciudad Rock XIX">
+    <meta name="author" content="www.ckm.co">
+    <meta name="copyright" content="Festival Ibagué ciudad Rock XIX">
+    <meta name="subject" content="Festival Ibagué ciudad Rock XIX">
+    <meta name="description" content="Festival Ibagué ciudad Rock XIX, Ibagué capital musical de Colombia, Ibagué, Tolima">
+    <meta name="keywords" content="Festival Ibagué ciudad Rock XIX, Ibagué capital musical de Colombia, Ibagué, Tolima">
+    <meta name="geography" content="Ibagué, Tolima, Colombia">
+    <meta name="language" content="Español">
+
+	<link rel="shortcut icon" href="_interfAz_CK!/icon/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="_interfAz_CK!/icon/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="_interfAz_CK!/icon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="_interfAz_CK!/icon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="_interfAz_CK!/icon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="_interfAz_CK!/icon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="_interfAz_CK!/icon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="_interfAz_CK!/icon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="_interfAz_CK!/icon/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="_interfAz_CK!/icon/apple-touch-icon-180x180.png" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="_css__CK!/reset.css" rel="stylesheet" type="text/css" />
+    <link href="_css__CK!/estructura.css" rel="stylesheet" type="text/css" />
+	<link href="_css__CK!/grid.css" rel="stylesheet" type="text/css" />
+	<link href="_css__CK!/estilo.css" rel="stylesheet" type="text/css" />
+
+    <link href="_css__CK!/sm-core-css.css" rel="stylesheet" type="text/css" />
+    <link href="_css__CK!/sm-menu.css" rel="stylesheet" type="text/css" />
+    <link href="_css__CK!/sm-menu-ckm.css" rel="stylesheet" type="text/css" />
+    
+	<link href="_css__CK!/animaciones.css" rel="stylesheet" type="text/css" />
+	<link href="_css__CK!/responsive.css" rel="stylesheet" type="text/css" />
+
+
+    <script type="text/javascript" src="_js__CK!/modernizr-2.0.6.min.js"></script>
+	<!--[if lt IE 9]>
+	<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<script type="text/Javascript" src="_js__CK!/jquery-2.1.3.min.js"></script>
+	<!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>-->
+    <script>
+	(function($) {
+		$.rand = function(arg) {
+			if ($.isArray(arg)) {
+				return arg[$.rand(arg.length)];
+			} else if (typeof arg == "number") {
+				return Math.floor(Math.random() * arg);
+			} else {
+				return 4;  // chosen by fair dice roll
+			}
+		};
+	})(jQuery);
+	var items = ['man','girl'];
+
+	window.onload = function(){
+		item_actual = $.rand(items);
+		$("#inicio").addClass(item_actual);
+	};
+	
+	function cambio(){
+		if(item_actual=='man'){
+			$("#inicio").removeClass("man");
+			item_actual = 'girl';
+		}
+		else{
+			$("#inicio").removeClass("girl");
+			item_actual = 'man';
+		}
+		$("#inicio").addClass(item_actual);
+	}
+	setInterval(cambio, 7000);
+	</script>
+
+    <script type="text/javascript" src="_js__CK!/jquery.smartmenus.js"></script>
+    <script type="text/javascript" src="_js__CK!/jquery.smartmenus.keyboard.js"></script>
+    <script type="text/javascript" src="_js__CK!/interfaz.js"></script>
+
+	<script type="text/Javascript" src="_js__CK!/ckm_navegacion.js"></script>
+    <script type="text/Javascript" src="_js__CK!/slides.min.jquery.js"></script>
+    <script type="text/Javascript" src="_js__CK!/jquery.hittest.min.js"></script>
+</head>
+
+<body>
+
+<div id="inicio" class="contenidos inicio">
+    <header id="header" class="header txt_centro">
+        <div class="centro">
+            <figure><a href="#"><img src="_interfAz_CK!/icr.png" alt="Festival Ibagué ciudad Rock" /></a></figure>
+        </div>
+    </header>
+    <div class="piso"></div>
+    <div class="reflejo"></div>
+    <div class="ventana"></div>
+    <div class="caras txt_centro">
+    	<figure><img src="_interfAz_CK!/caras.png" alt="rokers" /></figure>
+    </div>
+    <div class="girls txt_centro">
+    	<figure><img src="_interfAz_CK!/girls.png" alt="rockeras" /></figure>
+    </div>
+    <!--
+    <div class="luces"></div>
+    -->
+    <div class="haz-01"></div>
+    <div class="haz-02"></div>
+    <div class="haz-03"></div>
+    <div class="haz-04"></div>
+    <div class="haz-05"></div>
+    <div class="tv txt_centro">
+    	<figure><img src="_interfAz_CK!/tv2.png" alt="" title="" /></figure>
+    </div>
+
+    <div class="live">
+<!--    	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/ooIiX6YVPhc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+    </div>
+
+    <div class="menu">
+        <nav id="main-nav" class="main-nav" role="navigation">
+            <input id="main-menu-state" type="checkbox" />
+            <label class="main-menu-btn" for="main-menu-state">
+                <span class="main-menu-btn-icon"></span>
+            </label>
+            <ul id="main-menu" class="sm sm-ckm">
+                <li><a href="#inicio" id="men_inicio" title="Inicio">Inicio</a></li>
+                <li><a href="#revive-el-icr" id="men_revive-el-icr" title="Revive el ICR">Revive el ICR</a></li>
+                <li><a href="#el-festival" id="men_el-festival" title="El festival">El festival</a></li>
+                <li><a href="#lineup" id="men_lineup" title="Line up">Line up</a></li>
+                <li><a href="#experiencia" id="men_experiencia" title="Vive la experiencia">Vive la experiencia</a></li>
+                <!--<li><a href="#programacion" id="men_programacion" title="Programación">Programación</a></li>-->
+                <li><a href="#sponsors" id="men_sponsors" title="Sponsors">Sponsors</a></li>
+                <li><a href="#redes" id="men_redes" title="Síguenos en Redes">Síguenos</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+
+<section id="revive-el-icr" class="contenidos programacion dias all vertical_conte_centro">
+    <article class="centro">
+    	<header><h2 class="txt_centro">Revive el ICR</h2></header>
+        <div class="col-6">
+        	<a href="https://www.youtube.com/watch?v=Pc4hUyOmf-M" target="_blank"><h3 class="txt_centro">Día 1</h3></a>
+		</div>
+        <div class="col-6">
+        	<a href="https://www.youtube.com/watch?v=MbXQGQFK_3I" target="_blank" class="dia2"><h3 class="txt_centro">Día 2</h3></a>
+		</div>
+	</article>
+</section>
+
+
+<section id="el-festival" class="contenidos el-festival all vertical_conte_centro">
+    <article class="centro">
+        <div class="grillaflex noPadding">
+            <div class="col-9 centro_vertical noPaddingLeft">
+                <div>
+                    <header><h2>El Festival</h2></header>
+                    <p>Somos el festival de rock del Tolima, el segundo de mayor trayectoria en Colombia, en estas casi dos décadas de recorrido en nuestras tarimas se han agrupaciones internacionales:<br />
+                        <marquee scrollamount="16">La Mosca Tse Tse &#8226; Carajo &#8226; Krisiun &#8226; Vital Remains &#8226; Abrahel &#8226; Curanderos &#8226; Bala Perdida &#8226; Poliester &#8226; Sudacaya &#8226; entre muchas otras más agrupaciones de países como &#8226; España &#8226; Argentina &#8226; México &#8226; U.S.A. &#8226; Brasil &#8226; Chile &#8226; Ecuador &#8226; Venezuela &#8226;</marquee>
+                        <br />
+                        Por el lado colombiano:<br />
+                        <marquee scrollamount="12">Kraken &#8226; La Pestilencia &#8226; Masacre &#8226; Purulent &#8226; Thy Antichrist &#8226; Inquisition &#8226; Cuentos de los Hermanos Grind &#8226; La Derecha &#8226; Alerta Kamarada &#8226; Tr3sdeCorazón &#8226; Don Tetto &#8226; Reencarnación &#8226; Impromptus Ad Mortem &#8226; Ekhymosis &#8226; Los PetitFellas &#8226; I.R.A. &#8226; Los Suxioz &#8226; Policarpa y sus Viciosas &#8226; Fértil Miseria &#8226; Alfonso Espriella &#8226; Cinco Sentidos &#8226; Consulado Popular &#8226; Chite &#8226; Nepentes &#8226; Kilcrops &#8226; Odio a Botero y muchas agrupaciones de todos los rincones del país.</marquee>
+                        <!--<marquee behavior=scroll direction="right" scrollamount="2">Your message here</marquee>-->
+						Y todo el talento rockero Tolimense ha estado presente en el festival que es plataforma de difusión y exposición.
+					</p>
+                    <p>Para esta edición número 19 debido a la actual situación ocasionada por la pandemia del Covid-19, se realizará de forma gratuita a través de Facebook Live y YouTube Live.</p>
+                    <p>Nuestro espacio se ganó el apoyo del público de Ibagué, del Tolima y de toda Colombia, en donde cada generación ha podido disfrutar y ha hecho que este escenario sea uno de los más activos, diversos y consolidados del rock colombiano.</p>
+                	<p class="carter">Ibagué Ciudad Rock ¡Por Sempre!</p>
+                </div>
+            </div>
+            <div class="col-3 centro_vertical noPaddingRight">
+                <div>
+					<svg width="180" height="200">
+                      <g>
+                        <g>
+                            <g>
+                                <polygon fill="#F19300" points="140.424,117.978 133.145,117.978 130.277,124.346 135.509,124.346 			"/>
+                                <polygon fill="#F19300" points="28.252,124.364 30.33,124.364 30.33,138.677 28.252,138.677 28.252,143.062 39.199,143.062 
+                                    39.199,138.677 37.152,138.677 37.152,124.364 39.199,124.364 39.199,120.01 28.252,120.01 			"/>
+                                <path fill="#F19300" d="M53.341,126.309c-1.613,0-3.593,0.691-4.317,1.553v-9.53h-7.981v4.32h1.383v16.124h-1.383v4.287h7.421
+                                    l0.495-1.124c0.921,0.794,1.842,1.487,4.351,1.487c4.651,0,7.515-3.397,7.616-8.48C61.022,130.531,58.353,126.309,53.341,126.309
+                                    z M51.331,139.137c-1.256,0-2.373-1.712-2.373-3.954c-0.136-2.61,1.052-4.225,2.338-4.225c1.448,0,2.372,2.075,2.372,4.058
+                                    C53.669,137.522,52.716,139.137,51.331,139.137z"/>
+                                <path fill="#F19300" d="M78.959,132.407c0-5.31-4.976-6.79-8.935-6.79c-3.032,0-5.871,1.552-7.189,2.342l1.386,3.824
+                                    c1.255-0.692,2.965-1.516,4.913-1.516c1.781,0,3.134,0.362,3.134,1.846v1.155c-0.167-0.199-1.321-1.155-3.267-1.155
+                                    c-3.727,0-6.855,2.34-6.855,6.071c0,3.825,3.361,5.503,6.494,5.503c1.185,0,3.229-0.427,4.453-2.112l0.79,1.487h7.056v-4.219
+                                    h-1.979V132.407z M72.268,138.315c-0.298,0.495-1.124,1.088-2.112,1.088c-0.987,0-1.75-0.628-1.75-1.553
+                                    c0-1.02,0.595-1.746,1.914-1.746c1.388,0,1.848,0.791,1.948,0.958V138.315z"/>
+                                <path fill="#F19300" d="M93.531,127.596c-0.66-0.658-2.045-1.353-3.497-1.353c-5.44,0-8.276,3.367-8.276,8.476
+                                    c0,4.153,2.243,8.244,7.912,8.244c2.113,0,3.397-1.218,3.861-1.815v1.122c0,1.387-0.858,3.099-3.827,3.099
+                                    c-2.507,0-4.979-1.45-5.739-2.107l-1.744,3.659c1.249,1.156,3.924,2.87,7.548,2.902c6.925-0.032,10.29-3.597,10.29-9.069v-9.86
+                                    h1.979v-4.317h-7.852L93.531,127.596z M91.156,138.706c-1.452,0-2.375-2.076-2.375-4.054c0-2.504,0.956-4.121,2.34-4.121
+                                    c1.252,0,2.376,1.716,2.376,3.956C93.628,137.093,92.443,138.706,91.156,138.706z"/>
+                                <path fill="#F19300" d="M121.225,126.575h-8.538v4.355h2.173v5.238c0,1.487-0.923,2.508-2.075,2.508
+                                    c-1.351,0-1.783-1.319-1.783-4.156v-7.945h-7.974v4.355h1.381v4.548c0,5.471,1.645,8.047,6.625,8.047
+                                    c2.805,0,3.959-1.715,4.686-2.541l0.892,2.078h6.228v-4.386h-1.613V126.575z"/>
+                                <path fill="#F19300" d="M137.937,137.592c-1.775,1.479-3.495,1.578-4.619,1.578c-2.768,0-3.194-1.812-3.392-2.701h10.387
+                                    c0.692-1.881,0.327-4.419-0.068-5.576c-0.955-2.77-3.954-4.777-7.88-4.777c-4.979,0-8.868,3.197-8.868,8.604
+                                    c0,6.334,4.614,8.938,8.7,8.938c3.433,0,6.075-0.759,8.511-2.869L137.937,137.592z M132.565,130.564
+                                    c2.106,0,2.407,1.381,2.438,2.639h-4.982C130.088,132.378,130.55,130.564,132.565,130.564z"/>
+                            </g>
+                            <g>
+                                <path fill="#005628" d="M73.823,156.848c-0.034-0.868-0.306-1.9-1.139-1.9c-1.069,0-1.593,1.14-1.593,2.315
+                                    c0,1.177,0.707,2.118,1.863,2.137c0.961,0.021,1.595-0.378,2.191-1.032l1.594,1.847c-0.85,0.925-2.481,1.848-4.434,1.848
+                                    c-2.663,0-4.98-1.613-4.98-4.836c0-3.202,2.138-4.63,4.455-4.63c1.229,0,1.955,0.667,2.262,1.029l0.309-0.866h2.133v4.089H73.823
+                                    z"/>
+                                <path fill="#005628" d="M77.372,161.805v-2.367h0.761v-4.326h-0.761v-2.353h4.199v6.679h0.869v2.367H77.372z M79.834,148.266
+                                    c1.249,0,1.993,1.018,1.993,1.85c0,0.996-0.708,1.827-1.993,1.827c-1.141,0-1.954-0.958-1.954-1.827
+                                    C77.88,149.283,78.567,148.266,79.834,148.266z"/>
+                                <path fill="#005628" d="M87.546,152.759v4.36c0,1.557,0.235,2.28,0.976,2.28c0.634,0,1.141-0.56,1.141-1.376v-2.878H88.47v-2.387
+                                    h4.686v6.641h0.888v2.405h-3.421l-0.488-1.138c-0.399,0.453-1.033,1.395-2.572,1.395c-2.731,0-3.638-1.414-3.638-4.417v-2.499
+                                    h-0.761v-2.387H87.546z"/>
+                                <path fill="#005628" d="M100.143,150.585v-2.354h4.506v11.224h0.869v2.351h-4.233l-0.308-0.666
+                                    c-0.235,0.217-1.033,0.829-2.284,0.829c-2.549,0-4.195-2.26-4.195-4.776c0-2.824,1.972-4.614,4.195-4.614
+                                    c1.288,0,1.938,0.468,2.284,0.686v-2.678H100.143z M99.689,159.42c0.707,0,1.359-0.889,1.287-2.317
+                                    c0-1.233-0.617-2.173-1.305-2.173c-0.76,0-1.283,0.887-1.283,2.262C98.389,158.279,98.893,159.42,99.689,159.42z"/>
+                                <path fill="#005628" d="M106.442,153.518c0.724-0.436,2.281-1.284,3.947-1.284c2.175,0,4.905,0.812,4.905,3.726v3.531h1.086
+                                    v2.314h-3.875l-0.435-0.811c-0.668,0.924-1.792,1.158-2.443,1.158c-1.72,0-3.562-0.925-3.562-3.023
+                                    c0-2.047,1.718-3.33,3.762-3.33c1.068,0,1.704,0.523,1.793,0.633v-0.633c0-0.813-0.741-1.015-1.718-1.015
+                                    c-1.07,0-2.011,0.452-2.697,0.833L106.442,153.518z M111.62,158.512c-0.056-0.092-0.309-0.523-1.07-0.523
+                                    c-0.723,0-1.046,0.4-1.046,0.961c0,0.505,0.414,0.85,0.958,0.85c0.543,0,0.996-0.326,1.158-0.599V158.512z"/>
+                                <path fill="#005628" d="M122.48,150.585v-2.354h4.509v11.224h0.865v2.351h-4.236l-0.304-0.666
+                                    c-0.237,0.217-1.033,0.829-2.282,0.829c-2.554,0-4.2-2.26-4.2-4.776c0-2.824,1.974-4.614,4.2-4.614
+                                    c1.285,0,1.938,0.468,2.282,0.686v-2.678H122.48z M122.028,159.42c0.704,0,1.356-0.889,1.286-2.317
+                                    c0-1.233-0.617-2.173-1.306-2.173c-0.758,0-1.285,0.887-1.285,2.262C120.724,158.279,121.231,159.42,122.028,159.42z"/>
+                            </g>
+                            <g>
+                                <path fill="#BD0926" d="M61.463,190.2c-7.355,0-11.243-3.72-11.243-10.76c0-5.703-0.862-7.362-6.576-7.362H43.13v10.424h3.697
+                                    v6.975H28.278v-6.975h3.394V155.05h-3.394v-6.913h18.276c12.833,0,16.278,5.756,16.278,11.973c0,4.23-2.032,7.999-7.442,8.739
+                                    l0,0c4.136,0.602,7.499,4.789,7.499,8.654c0,2.291,0.236,4.635,1.969,4.635c1.194,0,1.908-0.918,1.908-2.453v-1.485h3.032v2.819
+                                    C69.797,185.209,68.352,190.2,61.463,190.2z M43.13,166.32h3.241c3.965,0,6.333-2.028,6.333-5.423c0-3.812-2.143-5.91-6.028-5.91
+                                    H43.13V166.32z"/>
+                                <path fill="#BD0926" d="M71.424,176.775c0.052-8.82,7.18-13.732,14.469-13.732c8.343,0.109,14.521,5.125,14.679,13.943
+                                    c0.104,8.766-6.389,13.78-14.416,13.78C78.604,190.767,71.316,186.122,71.424,176.775z M89.748,176.986
+                                    c0-3.962-1.373-7.024-3.855-7.075c-2.06,0-3.644,3.061-3.644,6.917c0,4.331,1.689,7.181,3.907,7.181
+                                    C88.427,184.009,89.748,180.947,89.748,176.986z"/>
+                                <path fill="#BD0926" d="M120.166,175.615c-0.105-2.54-0.9-5.548-3.326-5.548c-3.115,0-4.646,3.328-4.646,6.761
+                                    c0,3.434,2.056,6.176,5.438,6.232c2.799,0.05,4.646-1.109,6.388-3.011l4.647,5.385c-2.482,2.692-7.232,5.387-12.938,5.387
+                                    c-7.762,0-14.52-4.699-14.52-14.099c0-9.35,6.231-13.52,12.989-13.52c3.593,0,5.702,1.955,6.603,3.012l0.897-2.536h6.231v11.937
+                                    H120.166z"/>
+                                <polygon fill="#BD0926" points="148.759,189.569 148.759,183.146 151.632,183.146 146.428,175.749 143.781,177.561 
+                                    143.781,183.146 145.892,183.146 145.892,189.569 131.719,189.569 131.719,183.202 134.055,183.202 134.055,154.296 
+                                    131.719,154.296 131.719,147.87 143.841,147.87 143.841,173.019 151.297,168.646 147.389,168.652 147.389,162.176 162.3,162.176 
+                                    162.3,168.652 158.285,168.652 153.821,171.479 161.981,183.146 164.581,183.146 164.581,189.569 			"/>
+                            </g>
+                        </g>
+                        <g>
+                            <path fill="#005628" d="M58.316,87.215c-0.173-4.013-1.428-8.788-5.279-8.788c-4.942,0-7.369,5.276-7.369,10.716
+                                c0,5.45,3.264,9.798,8.624,9.882c4.441,0.087,7.368-1.761,10.132-4.771l6.116,6.815c-3.164,4.976-10.22,10.263-19.259,10.263
+                                c-12.322,0-23.03-7.446-23.03-22.355c0-14.82,9.878-21.433,20.6-21.433c5.692,0,9.036,3.098,10.462,4.768l7.856-7.343l4.133,2.755
+                                L65.84,87.215H58.316z"/>
+                            <path fill="#BD0926" d="M67.076,55.04c5.993-0.539,10.38-7.68,10.38-7.68l3.82,3.066c0,0-0.851,2.031-1.936,4.981
+                                c-0.464,1.264-1.95,5.933-2.185,6.743c-4.118,14.301,7.992,14.846,8.22,27.681c0.081,4.453-1.801,14.099-8.172,18.812
+                                c5.384,1.608,15.494,2.775,27.47,1.92c7.682-0.552,19.745-5.915,22.879-12.925c4.063-9.087,2.017-20.229,2.017-20.229
+                                l-10.063,0.135c0,0,0.89,8.866-2.956,9.078c-7.112,0.395-2.115-9.549-6.712-18.992c-2.559-5.25-7.863-9.845-17.691-13.42
+                                c5.518,0.768,17.12-4.632,20.833-13.819c2.227-5.512,1.441-12.509,0.081-18.377C110.196,9.687,100.116-0.1,68.677,0.891
+                                c-1.926,5.004,0.917,12.362,0.917,12.362l-2.379,3.301C67.214,16.553,67.105,54.291,67.076,55.04z"/>
+                            <path fill="#F19300" d="M58.288,13.998c1.455-5.195,3.457-13.165,3.457-13.165L45.11,0.913L28.475,0.833
+                                c0,0,1.128,60.829,1.084,61.326c13.753-9.397,28.67-3.673,28.67-3.673l2.53-41.855C60.759,16.632,60.021,15.008,58.288,13.998z"/>
+                        </g>
+                    </g>
+                    </svg>
+                </div>
+            </div>    
+        </div>
+    </article>
+</section>
+
+
+<section id="lineup" class="contenidos lineup all txt_centro vertical_conte_centro">
+	<article class="centro">
+    	<header><h2>Line up</h2></header>
+		<div class="grillaflex an20 noPadding">
+            <div>
+                <div>
+                	<button 
+                    data-video="SlJ-R4F1q1A" 
+                    data-resena='<p>Uno de los íconos y referentes del metal gótico en Colombia, estará en nuestro festival ofreciendo un concierto digno de contemplarse, debido a su calidad interpretativa y performance visual que hacen que sea un show digno de apreciar con todos los sentidos.</p><p>Esta banda colombiana ha estado vigente desde 1990 por su violinista David Rivera, en donde estas tres décadas de música las han aprovechado para consolidar un sonido verdaderamente original entre instrumentación clásica y metal rodeada de texturas ambientales de teclado.</p><p>Han grabado ocho álbumes de estudio, que narran su evolución sonora. En su último trabajo, la banda muestra su habilidad única para mezclar arreglos de cuerdas para orquesta de cámara y voces femeninas, sin perder sus raíces de rock / metal.</p><p>Ellos sin duda se han ganado un lugar importante en la escena del metal latinoamericana como pioneros en el género gótico. Al tomar riesgos con su enfoque innovador y único, han desarrollado un sonido innovador.</p><p>“Las Once Formas del Horror”, es el nuevo disco de estudio, es un disco conceptual, con un sonido más agresivo, coronado por un aura de metal oscuro, denso. El violín distorsionado ahora ocupa el lugar de las guitarras de metal, mientras que los teclados, el piano y las orquestaciones sinfónicas tejen un tapiz emocional en todas partes.</p>' 
+                    data-web="" 
+                    data-fb="TenebrarumOficial" 
+                    data-tw="TenebrarumMetal" 
+                    data-ig="tenebrarumoficial" 
+                    data-yt="channel/UC24nJDE9iQ8Gy5XhvlK27YQ" 
+                    data-sp="artist/7ppgH8QwULTjVTwadIWPDM" 
+                    data-so="" 
+                    data-bc="">
+                	<figure><img src="_interfAz_CK!/bandas/tenebrarum.jpg" alt="TENEBRARUM" /></figure>
+                    <h4>TENEBRARUM</h4>
+                    </button>
+                </div>
+			</div>
+
+            <div>
+                <div>
+                	<button 
+                    data-video="Sb7sWwYifEk" 
+                    data-resena='<p>EL nombre de esta agrupación surge como tributo al piloto de la serie animada “Mazinger Z” y su propuesta musical está enfocada a explorar el metal industrial en sus distintas manifestaciones, pero concentrándose en el cyber core, todo esto respaldado por un soporte visual en cada una de sus presentaciones a través del maquillaje corporal, teatralidad y efectos visuales que la hacen una de las mejores propuestas escénicas colombianas.</p><p>Han editado dos placas discográficas: Mechanical Human Prototype (2004), Vio-Logic (2007) para la disquera EMI Music, cinco sencillos: E.V.A (2001), Koyi K utho (2002), Mechanical Animal, Fire on Fire (2011), Decode (2012) y ocho vídeos que se encuentran disponibles en su canal de YouTube.</p><p>Esta es una de las bandas de mayor reconocimiento en la escena colombiana debido a su amplia experiencia, de los cuales pueden mencionarse sus participaciones en EVILUTION en varias ciudades de México, el festival Corona Hell and Heaven 2016 y en U.S.A. participando en el 70,000 Tons of Metal (crucero con 60 de las más importantes bandas de metal del mundo).</p><p>Han obtenido varios reconocimientos a nivel nacional e internacional como nominados y ganadores a varios premios de la música (Shock, Mucha Música, Revista Seres (México), La Metro Estación (Ecuador) entre otras y siendo portada y tema central de varias de las publicaciones especializadas.</p>' 
+                    data-web="" 
+                    data-fb="koyikutho.oficial" 
+                    data-tw="koyi_k_utho" 
+                    data-ig="koyi_k_utho" 
+                    data-yt="channel/UCcdNlsm75VpCAAiGgwTTEbA" 
+                    data-sp="artist/3TAcf58MSh4NcKtqjYkuD6" 
+                    data-so="koyi_k_utho" 
+                    data-bc="">
+                	<figure><img src="_interfAz_CK!/bandas/koyi-k-utho.jpg" alt="KOYI K UTHO" /></figure>
+                    <h4>KOYI K UTHO</h4>
+                    </button>
+                </div>
+			</div>
+
+            <div>
+                <div>
+                	<button 
+                    data-video="MzZ4XXAxZUg" 
+                    data-resena="<p>Es una banda de rock colombiana liderada por una voz femenina. Cantando en inglés y en español, VFV logró causar un gran impacto en la escena colombiana gracias a sus canciones de sonido fuerte con estética pop, su puesta en escena contundente y la gran producción que acompaña sus canciones y videos. Lo anterior, ha llevado a la banda a crear una respetable trayectoria en la industria musical colombiana.</p><p>V for Volume busca resaltar la tenacidad, capacidad de lucha, la resiliencia y la valentía de las mujeres que forman parte del tejido sonoro latinoamericano. Por medio de canciones
+honestas, que actúen como grito de guerra, queremos empoderar a las mujeres a través de la música.</p><p>Una banda de amplia trayectoria, con giras internacionales y un reconocimiento con participaciones en festivales como: Rock al Parque, Estéreo Picnic, Día del Rock Colombia y el Vive Latino (México).</p>" 
+                    data-web="" 
+                    data-fb="vforvolume" 
+                    data-tw="vforvolume" 
+                    data-ig="vforvolume" 
+                    data-yt="c/vforvolume" 
+                    data-sp="artist/2Sgo9dXRK6VKbAAMhmb3Zz" 
+                    data-so="" 
+                    data-bc="">
+                	<figure><img src="_interfAz_CK!/bandas/v-for-volume.jpg" alt="V FOR VOLUME" /></figure>
+                    <h4>V FOR VOLUME</h4>
+                    </button>
+                </div>
+			</div>
+
+            <div>
+                <div>
+                	<button 
+                    data-video="8YkviphnIqk" 
+                    data-resena="<p>Las Poker es una agrupación que quiere dejar en alto el nombre de la mujer en la música, haciendo de su trabajo un gran reflejo de libertad, compromiso, respeto y amor por el rock and roll.</p><p>Una banda con un sonido Thrash muy contemporáneo, fuerte y contestatario; que se enmarca muy bien para los inconformismos existentes en nuestro país.</p><p>Esta banda está conformada por: Paola Rodriguez (bajista) Luz Silva (Baterista) Laura Angulo (vocalista y guitarrista) y han construído este proyecto desde el 2009.
+Han grabado 2 discos, han hecho 2 giras suramericanas (Argentina, Bolivia, Chile, Ecuador y Perú) y han participado en festivales como: Rock al Parque 2017 (Colombia) y el Force Festival 2018 (México).</p>" 
+                    data-web="" 
+                    data-fb="LasPoker" 
+                    data-tw="LasPoker" 
+                    data-ig="laspoker" 
+                    data-yt="channel/UCndB2IItmf6A9Dv3X3CYY7w" 
+                    data-sp="artist/7G988bPz1bUiUcC8nkCI5I" 
+                    data-so="" 
+                    data-bc="">
+                	<figure><img src="_interfAz_CK!/bandas/las-poker.jpg" alt="LAS POKER" /></figure>
+                    <h4>LAS POKER</h4>
+                    </button>
+                </div>
+			</div>
+
+            <div>
+                <div>
+                	<button 
+                    data-video="8gyQuls-kNs" 
+                    data-resena="<p>Si existe en el mundo una propuesta única, transgresora, potente, tropical, mórbida y cruda; es la de esta agrupación bogotana que lleva más de 10 años ofreciendo canciones que hieren la susceptibilidad de muchos tradicionalistas del rock n roll.</p><p>Kipitos, Chamburcy y Betamax, los miembros de esta banda que se podría enmarcar al inicio de su carrera como un sonido “Reguetón Core” han explorado en cada canción que han producido y han lanzado en internet donde han pasado por temas con base en champeta, electrónica, salsa, grindcore, hardcore, meregue, hip hop; lo que realmente no hacen perder la capacidad de sorprendernos.</p><p>Su música los ha convertido en un fenómeno digital gracias a sus líricas grotescas, pornográficas, “satánicas” y gore: que hacen que siempre exista una reacción a quien se da la oportunidad de escucharlos.ya que después de escuchar lo somero, existe una crítica contundente a la música, a los estereotipos, a las tendencias, a nuestra realidad colombiana que realmente la hace muy notable.</p>" 
+                    data-web="" 
+                    data-fb="CompadresRecerdos" 
+                    data-tw="Compadresrecerd" 
+                    data-ig="compadres_recerdos" 
+                    data-yt="channel/UCXMqqjdh_u_lpaKSdVwAqAg" 
+                    data-sp="artist/5n4mCk6ZQoWaUHjicvR6vO" 
+                    data-so="" 
+                    data-bc="">
+                	<figure><img src="_interfAz_CK!/bandas/compadres-recerdos.jpg" alt="COMPADRES RECERDOS" /></figure>
+                    <h4>COMPADRES RECERDOS</h4>
+                    </button>
+                </div>
+			</div>
+
+            <div>
+                <div>
+                	<button 
+                    data-video="sVoWXoBjuts" 
+                    data-resena="<p>Una agrupación con un sonido propio en donde intervienen elementos punk rock, neo junto con elementos alternativos y fusiones con elementos de toda la amalgama de sonidos colombianos y latinoamericanos que la han convertido en una propuesta refrescante, fuerte y original; la cual ellos denominan como: “Rock con Bravura”.</p><p>Apolo 7 cuenta con tres trabajos discográficos: Apolo 7 Hits (2016), Sangre Latina (2018), Métale Bravura (2019), además de ser una de las agrupaciones con una fuerte presencia en redes sociales y plataformas digitales en donde ofrecen sus nuevas canciones regularmente para todos sus seguidores.</p><p>Han participado en festivales como: Rock al Parque 2018, Dia de Rock Colombia 2018 y 2020, Jingle Bell Rock de Radioactiva; además de realizar una gira por México en 2019 participando en festivales como: el Festival Rock X la Vida, Hell and Heaven. Igualmente han sido la primera agrupación en realizar un toque en la catedral de sal de Zipaquirá.</p>" 
+                    data-web="" 
+                    data-fb="apolo7oficial" 
+                    data-tw="apolo7rock" 
+                    data-ig="apolo7tv" 
+                    data-yt="channel/UCPzINiYCYmqpVg7MdgGuIGw" 
+                    data-sp="artist/322BLVw40Mq2hWHxGLykr6" 
+                    data-so="" 
+                    data-bc="">
+                	<figure><img src="_interfAz_CK!/bandas/apolo-7.jpg" alt="APOLO 7" /></figure>
+                    <h4>APOLO 7</h4>
+                    </button>
+                </div>
+			</div>
+
+            <div>
+                <div>
+                	<button 
+                    data-video="yQD_0WwDIeo" 
+                    data-resena='<p>JULIAN SEGURA, radicado en el Reino Unido desde el año 2.007 este Músico y Compositor Ibaguereño, estudió guitarra clásica en el Conservatorio del Tolima, poco tiempo después, cambió su guitarra clásica por una eléctrica para conformar varias bandas del género rock en el departamento del Tolima; Drakma, Nubes Verdes y Don Peyote y los Viajes del Dharma.</p><p>En la actualidad en su país de residencia lidera junto a su esposa la talentosa cantante Cubana Indira Román, la agrupación Indira Román & Ají Pa´ti, fusionando la música Cubana con elementos del Rock, Pop y otros ritmos caribeños.</p><p>El recorrido de la agrupación en el oeste de Inglaterra los ha acogido, en Bristol como su casa principal, trayectoria que los ha llevado como Artistas invitados al reconocido festival GLASTONBURY (Europa), compartiendo escenario en varias ediciones  con importantes artistas en horario estelar y aforo total, demostrando que son una de las mejores bandas en el Reino Unido.</p><p>Indira Román & Ají Pa´ti, lanza en el 2.018 “Tus Besos” Composición de Julián Segura  con la participación especial del Maestro Roberto Pla, el “Rey de la Música Latina en el Reino Unido”. La producción del sencillo estuvo a cargo del productor, arreglista y trompetista Cubano Michael Padrón y la mezcla fue realizada con el pincel latino de la productora Gale Sound en Medellín, Colombia.</p><p>Una banda de rock alternativo, su propuesta se nutre de la experiencia y diversidad musical de sus integrantes, manteniendo un sonido claro y compacto que viaja entre distorsiones fuertes y melodiosas líricas creadas para disfrutarlas detenidamente, ha grabado dos álbumes con tres prenominaciones a Los Grammy Latinos, múltiples presentaciones a lo largo de los años que consolidan el sonido y la puesta en escena de la banda.</p>' 
+                    data-web="" 
+                    data-fb="ajipatibanda" 
+                    data-tw="" 
+                    data-ig="indira.roman" 
+                    data-yt="channel/UCPzaknQZhwPZ8C_1quABf-g" 
+                    data-sp="" 
+                    data-so="" 
+                    data-bc="">
+                	<figure><img src="_interfAz_CK!/bandas/aji-pa-ti.jpg" alt="INDIRA ROMÁN & AJÍ PA´TI" /></figure>
+                    <h4>INDIRA ROMÁN & AJÍ PA´TI (ING)</h4>
+                    </button>
+                </div>
+			</div>
+
+            <div>
+                <div>
+                	<button 
+                    data-video="y36kMMLDjpI" 
+                    data-resena="<p>Músico Ibaguereño residente en Madrid. Emerge del ala más arriesgada de la nueva escena tropicalista latinoamericana. Recoge elementos de la canción popular, la electrónica, el folclor colombiano y la psicodelia; todo en el marco de la experimentación.</p><p>Con letras surreales, cargadas de un alto grado de humor, poesía y sátira; Julián han creado una mitología propia muy particular que se ha ido consolidando a través de su prolífica trayectoria, con más de una decena de referencias que incluyen el sencillo Bill Clinton y los gatos, colaboración con Matías Aguayo y Lucrecia Dalt en el marco de su residencia en la Red Bull Music Academy de Montréal que editó Crammed Discs en 2017.</p><p>Tras 6 años observando el mundo desde Madrid, en los que ha podido conocer de primera mano los métodos de Thundercat, Dorian Concept o Matías Aguayo en la RBMA, tocar en las ediciones de Barcelona, Bogotá o Reykjavik de Sonar e iluminar con su energía la última formación de los añorados Hola A Todo El Mundo, el tolimense Julián Mayorga ha emprendido un viaje de vuelta hacia la imponente herencia musical de su Ibagué natal. Cuando tengo fiebre veo la cabeza de un leopardo magnífico es, de momento, la última parada de una travesía iniciada el año pasado con Islas Atlánticas, su disco-libro creado junto a Andrés Gualdrón, y el EP La Fiesta de Transmigración, reverso acústico de la obra que ahora nos ocupa.</p><p>Para el XIX Festival Ibagué Ciudad Rock  en directo confluyen los pasos de baile más extravagantes de la nueva escena andina, excéntricas visuales animadas, loops producidos in situ, groove tropical, vocoders y guitarras psicodélicas.</p>" 
+                    data-web="julianmayorga.net" 
+                    data-fb="julianmayorgao" 
+                    data-tw="" 
+                    data-ig="julianmayorgao" 
+                    data-yt="channel/UClNaj5D3caUtUB_i2wcDqoQ" 
+                    data-sp="artist/2TcRGEZR3tYPVDe71l5Fui" 
+                    data-so="" 
+                    data-bc="">
+                	<figure><img src="_interfAz_CK!/bandas/mayorga.jpg" alt="JULIÁN MAYORGA" /></figure>
+                    <h4>JULIÁN MAYORGA (ESP)</h4>
+                    </button>
+                </div>
+			</div>
+
+
+			<div>
+                <div>
+                	<button 
+                    data-video="zvRJ-LAz6hk" 
+                    data-resena="<p>Una banda de rock alternativo, su propuesta se nutre de la experiencia y diversidad musical de sus integrantes, manteniendo un sonido claro y compacto que viaja entre distorsiones fuertes y melodiosas líricas creadas para disfrutarlas detenidamente, ha grabado dos álbumes con tres prenominaciones a Los Grammy Latinos, múltiples presentaciones a lo largo de los años que consolidan el sonido y la puesta en escena de la banda.</p>" 
+                    data-web="" 
+                    data-fb="larvante" 
+                    data-tw="LarvanteRock" 
+                    data-ig="larvante" 
+                    data-yt="LarvanteRock" 
+                    data-sp="artist/2DdKk0pS8GDcPlCSyFK3Rz" 
+                    data-so="" 
+                    data-bc="" >
+                	<figure><img src="_interfAz_CK!/bandas/larvante.jpg" alt="LARVANTE" /></figure>
+                    <h4>LARVANTE</h4>
+                    </button>
+                </div>
+			</div>
+
+			<div>
+                <div>
+                	<button 
+                    data-video="aD3-Kgwo9kI" 
+                    data-resena="<p>Agrupación ibaguereña de Ska, los cuales fusionan con otros sonidos como el Reggae, Punk y Rock para hacer una mezcla explosiva. las letras de Mr. Bufus son de carácter contestatario polemizando y poniendo en manifiesto problemáticas sociales y ambientales como: la violencia intrafamiliar, desigualdad social, el maltrato animal, la contaminación y la mega-minería.</p><p>Con 7 años de experiencia en la escena musical se ha logrado abrir paso y marcar diferencia entre otros artistas de la ciudad, dando de qué hablar en las personas que han logrado escuchar su música y sus letras.</p>" 
+                    data-web="" 
+                    data-fb="mrbufus" 
+                    data-tw="MrBufus" 
+                    data-ig="mrbufus" 
+                    data-yt="channel/UCxsWtRPkUYKGkOZDRenAh9g" 
+                    data-sp="" 
+                    data-so="" 
+                    data-bc="">
+                	<figure><img src="_interfAz_CK!/bandas/mr-bufus.jpg" alt="MR. BUFUS" /></figure>
+                    <h4>MR. BUFUS</h4>
+                    </button>
+                </div>
+			</div>
+
+			<div>
+                <div>
+                	<button 
+                    data-video="ze8XzpxGVM0" 
+                    data-resena="<p>Una banda de crust punk creada a finales del 2014, liderada por Juliana Montesinos: voz/bajo, Germán Conde: guitarras y Julián Alvarez: batería. 
+Han producido 4 trabajos entre demos y álbumes: Sarna Trinidad DEMO en 2015, Guerra Napalm E.P. en 2016, Tierra Hirviendo álbum de 2017 y animales álbum 2019. Actualmente preparan su tercera producción discográfica.
+.</p><p>Han realizado varias giras en Ecuador, México y se han presentado en proximadamente 25 ciudades y municipios en el territorio colombiano.</p>" 
+                    data-web="" 
+                    data-fb="valiumruidoibahell" 
+                    data-tw="" 
+                    data-ig="valium_ibahell" 
+                    data-yt="channel/UC676WVWrMicvtiTZQW8_j7Q" 
+                    data-sp="" 
+                    data-so="" 
+                    data-bc="valiumibahell">
+                	<figure><img src="_interfAz_CK!/bandas/valium.jpg" alt="LARVANTE" /></figure>
+                    <h4>VALIUM</h4>
+                    </button>
+                </div>
+			</div>
+
+			<div>
+                <div>
+                	<button 
+                    data-video="t9lwRJ9UlDY" 
+                    data-resena="<p>Es una banda de Thrash metal con influencias de Death y Black metal la cual fue creada a finales del 2018 en Ibagué, Tolima por Sebastián Aragón  y Juan Manuel Pinto.</p><p>Fueron un dúo por varios meses hasta que encontraron a Ana Garcia y se une al bajo, desde entonces la banda ha participado en varios eventos a nivel local, actualmente se encuentran en la grabación y producción de su primer trabajo musical en forma de EP.</p>" 
+                    data-web="" 
+                    data-fb="KUNTURTHRASHMETAL" 
+                    data-tw="" 
+                    data-ig="" 
+                    data-yt="channel/UC8lOvfHy3MdCPfoT0NoNulA" 
+                    data-sp="" 
+                    data-so="" 
+                    data-bc="">
+                	<figure><img src="_interfAz_CK!/bandas/kuntur.jpg" alt="KUNTUR" /></figure>
+                    <h4>KUNTUR</h4>
+                    </button>
+                </div>
+			</div>
+
+			<div>
+                <div>
+                	<button 
+                    data-video="0u3k2Xj-ZBE" 
+                    data-resena='<p>Banda creada en el año 2008 con una propuesta enmarcada en el Thrash Metal, Death Metal contundente e insano, directo al cráneo con velocidad y sonidos demoledores. A lo largo de su trayectoria la agrupación cuenta con 5 placas discográficas entre esas un larga duración titulado “Horror” del 2016, 3 DEMOS y un split.</p>' 
+                    data-web="" 
+                    data-fb="" 
+                    data-tw="" 
+                    data-ig="" 
+                    data-yt="channel/UCNzfxUeXhksBE5sAjxEncWQ" 
+                    data-sp="" 
+                    data-so="" 
+                    data-bc="">
+                	<figure><img src="_interfAz_CK!/bandas/posesion-malefica.jpg" alt="POSESIÓN MALÉFICA" /></figure>
+                    <h4>POSESIÓN MALÉFICA</h4>
+                    </button>
+                </div>
+			</div>
+
+			<div>
+                <div>
+                	<button 
+                    data-video="0nZiHAP7RcQ" 
+                    data-resena='<p>Se forma en la ciudad de Ibagué en el año 2008, con el fin de unir tres estilos musicales que van ligados al rock pesado (Metal, Hardcore y Punk). En el 2010 publican su primer EP "Enfermedad Mosh" (en Rock Waves Studios Ibagué) y en el año 2013 "Generación Degeneración"  en Audio Factory, el cual los llevó a ser partícipes en distintos festivales de ciudades y municipios aledaños como: Bogotá (Alzamiento), Pasto (Galeras Rock), Neiva (Hardcorepunk Fest), Espinal, Chinchiná, Líbano y Lérida. En el año 2018 producen su segundo álbum "Viaje sin Regreso" y actualmente trabajan en su tercer álbum de larga duración.</p>' 
+                    data-web="" 
+                    data-fb="SinMenteColombia" 
+                    data-tw="" 
+                    data-ig="sinmentecolombia" 
+                    data-yt="channel/UC0IfT5dr_Vb4D5yWkBGYeVQ" 
+                    data-sp="" 
+                    data-so="" 
+                    data-bc="">
+                	<figure><img src="_interfAz_CK!/bandas/sin-mente.jpg" alt="SIN MENTE" /></figure>
+                    <h4>SIN MENTE</h4>
+                    </button>
+                </div>
+			</div>
+
+			<div>
+                <div>
+                	<button 
+                    data-video="DYEBx0ro8lg" 
+                    data-resena="<p>Ella es una MC y cantante que revitaliza la escena alternativa, influenciada en el hip hop reggae entre otras sonoridades urbanas, con letras que invitan a la reflexión, fortaleza y unión, ha participado en escenarios como Hip Hop al Parque 2013 (Bogotá), Rap a la Torta 2014 (Bogotá), Ibagué Ciudad Rock 2015 (Ibagué), Festival Internacional de las Artes- MINGA- 2016 (Florencia), circuito DC En Vivo 2017 (Bogotá), Mictlan Dub Fest 2018 (CDMX), Dub to Jungle 2019 (Bogotá), entre otros.</p><p>En el 2015 la artista presenta su EP “Sensibilidad”, grabado y mezclado por el sello independiente BajoCuerda Records. Desde el 2018 la artista hace parte del colectivo femenino Chié Sound, proyecto que pretende visibilizar el rol de la mujer en la sociedad y en la cultura soundsystem.</p>" 
+                    data-web="" 
+                    data-fb="Lyda.Aguas" 
+                    data-tw="Waters_Sing" 
+                    data-ig="waters.sing" 
+                    data-yt="channel/UCLAhw7Jkw26RP1Q3tuMP7Zw" 
+                    data-sp="artist/6NDdxAUb7IeQuMI5nMdf52" 
+                    data-so="" 
+                    data-bc="">
+                	<figure><img src="_interfAz_CK!/bandas/lyda-aguas.jpg" alt="LYDA AGUAS" /></figure>
+                    <h4>LYDA AGUAS</h4>
+                    </button>
+                </div>
+			</div>
+
+			<div>
+                <div>
+                	<button 
+                    data-video="fd-eAOEnmwo" 
+                    data-resena='<p>Cantautor, productor musical, multi instrumentista, pintor y dibujante Ibaguereño, proyectado como uno de los artistas revelación de la escena actual, su talento y virtuosismo excepcional le permiten encontrar un sonido único y auténtico en sus producciones.</p><p>Su primer sencillo, "Las cosas en la cara", fue lanzado el 12 de abril de 2019. La primera entrega de un álbum que se ha forjado por años, marcando la evidencia de un futuro prometedor. Una perfecta mixtura entre el rock sofisticado, una exquisita voz, melodías atrapantes, metáforas en letras y sonidos originados de la experimentación en el estudio.</p>' 
+                    data-web="" 
+                    data-fb="kalato.garcia" 
+                    data-tw="KalatoGarcia" 
+                    data-ig="kalato.garcia" 
+                    data-yt="channel/UCiECQGjcNLn-qAem6DH1Gqw" 
+                    data-sp="artist/61dh1MSuxaW9emOs1zIzWz" 
+                    data-so="" 
+                    data-bc="">
+                	<figure><img src="_interfAz_CK!/bandas/kalato-garcia.jpg" alt="KALATO GARCÍA" /></figure>
+                    <h4>KALATO GARCÍA</h4>
+                    </button>
+                </div>
+			</div>
+
+			<div>
+                <div>
+                	<button 
+                    data-video="vvCPGMtJm68" 
+                    data-resena='<p>Agrupación formada en 2009 por iniciativa de cuatro estudiantes de música del Conservatorio del Tolima, con su primer demo, (Mayo de 2009) que contiene "Adonde van los sueños" y "Dame vida" con el cual  lograron un notable reconocimiento en la escena alternativa de ibagué, recibiendo buenas críticas y fue regalado a través de internet.</p><p>El 26 de febrero de 2019 lanzaron el sencillo “Dulce veneno” a través de las plataformas digitales de música. El actual año  el cuarteto se encuentra produciendo su segundo álbum con la esencia del Rock Alternativo entre su música y letra.</p>' 
+                    data-web="" 
+                    data-fb="WarningRock" 
+                    data-tw="" 
+                    data-ig="warningrock" 
+                    data-yt="channel/UCrBs-5BjerM2YtPhX0PeS6Q" 
+                    data-sp="artist/7oTpYdzumyNG7xLvR7e969" 
+                    data-so="" 
+                    data-bc="">
+                	<figure><img src="_interfAz_CK!/bandas/warning.jpg" alt="WARN!NG" /></figure>
+                    <h4>WARN!NG</h4>
+                    </button>
+                </div>
+			</div>
+
+			<div>
+                <div>
+                	<button 
+                    data-video="IQrSoF_RVNA" 
+                    data-resena="<p>Esta banda nace en la ciudad de Ibagué con el fin de mezclar los ritmos autóctonos de la región con la fuerza del rock, con letras contestatarias que buscan mitigar la amnesia histórica en que vive el país, ha hecho parte de festivales como el Rock al pueblo en Lerida Tolima, Plataforma sonora, Infernoise En Juntas Tolima.</p>" 
+                    data-web="" 
+                    data-fb="AmnesiaPatria" 
+                    data-tw="" 
+                    data-ig="amnesiapatria" 
+                    data-yt="channel/UCmq7t3ECfBbR9eJHriPEt6A" 
+                    data-sp="" 
+                    data-so="" 
+                    data-bc="">
+                	<figure><img src="_interfAz_CK!/bandas/amnesia-patria.jpg" alt="AMNESIA PATRIA" /></figure>
+                    <h4>AMNESIA PATRIA</h4>
+                    </button>
+                </div>
+			</div>
+			<!--
+            <div>
+                <div>
+                	<button 
+                    data-video="xxxxxxx" 
+                    data-resena="<p>xxxxxx</p>" 
+                    data-web="" 
+                    data-fb="" 
+                    data-tw="" 
+                    data-ig="" 
+                    data-yt="" 
+                    data-sp="" 
+                    data-so="" 
+                    data-bc="">
+                	<figure><img src="_interfAz_CK!/bandas/larvante.jpg" alt="xxxxxx" /></figure>
+                    <h4>xxxxxx</h4>
+                    </button>
+                </div>
+			</div>
+            -->
+		</div>
+	</article>
+</section>
+
+
+<section id="experiencia" class="contenidos experiencia all">
+	<article class="centro">
+    	<header>
+            <h2 class="txt_centro">Vive la experiencia</h2>
+            <figure class="figure txt_centro"><img src="_interfAz_CK!/experiencia.svg" alt="Vive la experiencia" /></figure>
+        </header>
+		<p>Queremos que vivas la mejor experiencia con nuestra edición virtual de Ibagué Ciudad Rock, por esa razón te damos los siguientes consejos para que logres vivirlo como si estuvieras físicamente presente.</p>
+        <p>Te recomendamos disfrutar del festival desde un televisor, pero puedes igual disfrutarla en otros dispositivos que cuenten con la app oficial de YouTube o Facebook:</p>
+        <div class="txt_centro">
+            <ul>
+                <li><button data-dispo="ex_smart"><figure><img src="_interfAz_CK!/ex_smart.svg" alt="Smart TV" /></figure><h5>Smart TV</h5></button></li>
+                <li><button data-dispo="ex_tv"><figure><img src="_interfAz_CK!/ex_tv.svg" alt="TV sin internet" /></figure><h5>TV sin internet</h5></button></li>
+                <li><button data-dispo="ex_pc"><figure><img src="_interfAz_CK!/ex_pc.svg" alt="Computador" /></figure><h5>Computador</h5></button></li>
+                <li><button data-dispo="ex_android"><figure><img src="_interfAz_CK!/ex_android.svg" alt="Android" /></figure><h5>Android</h5></button></li>
+                <li><button data-dispo="ex_apple"><figure><img src="_interfAz_CK!/ex_apple.svg" alt="Apple" /></figure><h5>Apple</h5></button></li>
+            </ul>
+        </div>
+	</article>
+    <div class="skin"><img src="_interfAz_CK!/icr-skin.png" alt="rokers" /></div>
+</section>
+
+<!--
+<section id="programacion" class="contenidos programacion all vertical_conte_centro">
+	<article class="centro">
+    	<header><h2 class="txt_centro">Programación</h2></header>
+        <div class="col-6">
+        	<h3 class="txt_centro">SÁBADO 10</h3>
+            <table>
+              <tr>
+                <td>05:00 p.m.</td>
+                <td>KALATO GARCÍA</td>
+              </tr>
+              <tr>
+                <td>05:30 p.m.</td>
+                <td>INDIRA ROMAN &amp; AJI PA'TI (Ibagué/Cuba/Inglaterra)</td>
+              </tr>
+              <tr>
+                <td>06:00 p.m.</td>
+                <td>LYDA AGUAS</td>
+              </tr>
+              <tr>
+                <td>06:30 p.m.</td>
+                <td>AMNESIA PATRIA</td>
+              </tr>
+              <tr>
+                <td>07:00 p.m.</td>
+                <td>APOLO 7</td>
+              </tr>
+              <tr>
+                <td>07:40 p.m.</td>
+                <td>MR.BUFUS</td>
+              </tr>
+              <tr>
+                <td>08:10 p.m.</td>
+                <td>LARVANTE&nbsp;</td>
+              </tr>
+              <tr>
+                <td>08:40 p.m.</td>
+                <td>V FOR VOLUME</td>
+              </tr>
+              <tr>
+                <td>09:20 p.m.</td>
+                <td>KOYI K'UTHO</td>
+              </tr>
+            </table>
+        </div>
+        <div class="col-6">
+        	<h3 class="txt_centro">DOMINGO 11</h3>
+            <table>
+              <tr>
+                <td>05:00 p.m.</td>
+                <td>WARN!NG</td>
+              </tr>
+              <tr>
+                <td>05:30 p.m.</td>
+                <td>JULIAN MAYORGA (Ibagué/España)</td>
+              </tr>
+              <tr>
+                <td>06:00 p.m.</td>
+                <td>SIN MENTE</td>
+              </tr>
+              <tr>
+                <td>06:30 p.m.</td>
+                <td>COMPADRES RECERDOS</td>
+              </tr>
+              <tr>
+                <td>07:10 p.m.</td>
+                <td>KUNTUR</td>
+              </tr>
+              <tr>
+                <td>07:40 p.m.</td>
+                <td>LAS POKER</td>
+              </tr>
+              <tr>
+                <td>08:20 p.m.</td>
+                <td>VALIUM</td>
+              </tr>
+              <tr>
+                <td>08:50 p.m.</td>
+                <td>POSSESSION MALEFICA</td>
+              </tr>
+              <tr>
+                <td>09:20 p.m.</td>
+                <td>TENEBRARUM</td>
+              </tr>
+            </table>
+        </div>
+	</article>
+</section>
+-->
+
+<section id="sponsors" class="contenidos sponsors all vertical_conte_centro">
+	<article class="centro">
+    	<header><h2>Sponsors</h2></header>
+        <div class="col-8 noPadding">
+        	<ul>
+            	<li><a href="https://www.mincultura.gov.co/" target="_blank"><img src="_interfAz_CK!/mincultura.png" alt="Mincultura" /></a></li>
+            	<li><a href="https://comparte.mincultura.gov.co/" target="_blank"><img src="_interfAz_CK!/comparte.png" alt="#comparteloquesomos" /></a></li>
+            	<li><a href="https://www.tolima.gov.co/" target="_blank"><img src="_interfAz_CK!/gobernacion.png" alt="Gobernación del Tolima" /></a></li>
+            	<li><a href="https://www.ibague.gov.co/" target="_blank"><img src="_interfAz_CK!/alcaldia.png" alt="Alcaldía de Ibagué" /></a></li>
+            	<li><a href="https://tricolrock.com/" target="_blank"><img src="_interfAz_CK!/tricolrock.png" alt="Tricolrock" /></a></li>
+			</ul>
+		</div>
+	</article>
+</section>
+
+
+<footer id="redes" class="footer contenidos all txt_centro vertical_conte_centro">
+	<article class="centro">
+        <figure><img src="_interfAz_CK!/icr.gif" alt="Festival Ibagué ciudad Rock" /></figure>
+        <ul>
+            <li><a href="https://www.youtube.com/playlist?list=PLMn44QOtYHjttPAER6azWoOajXNecaf2a" target="_blank"><img src="_interfAz_CK!/youtube.svg" alt="youtube" /></a></li>
+            <li><a href="https://www.facebook.com/ibagueciudadrock" target="_blank"><img src="_interfAz_CK!/facebook.svg" alt="facebook" /></a></li>
+            <li><a href="https://www.instagram.com/ibaguerock/" target="_blank"><img src="_interfAz_CK!/instagram.svg" alt="instagram" /></a></li>
+            <li><a href="https://twitter.com/ibaguerock" target="_blank"><img src="_interfAz_CK!/twitter.svg" alt="twitter" /></a></li>
+            <li><a href="https://open.spotify.com/playlist/5t33xxqj6lhMYZ6Z3WjKUp?si=aMxkUEnkTiinXPZs-gCqFA" target="_blank"><img src="_interfAz_CK!/spotify.svg" alt="spotify" /></a></li>
+        </ul>
+     </article>
+</footer>
+
+<button class="ir-arriba"><span></span></button>
+
+    <div class="overlay cerrar"></div>
+    <div class="modal">
+        <button class="cerrar close"></button>
+        <div class="info txt_centro"></div>
+        <div class="exper">
+        	<div class="ex_ico txt_centro"></div>
+        	<div class="ex_info ex_smart">
+                <p>Si tienes un televisor inteligente (que cuenta con conexión a internet), puedes descargar las aplicaciones oficiales de Facebook Watch y YouTube.</p>
+                <p>Para esto primero debes ingresar a la tienda de aplicaciones de la marca de tu televisor inteligente e instalar la aplicación (Recuerda que para poder instalar, debes tener una cuenta activa en estos servicios para acceder con tu usuario y contraseña): </p>
+                <p>Acá te damos una ayuda:</p>
+                <ul>
+                  <li><strong><a href="https://www.samsung.com/latin/support/tv-audio-video/how-to-use-smart-hub/" target="_blank">Samsung Smart Hub</a>.</strong></li>
+                  <li><strong><a href="https://es.lgappstv.com/main" target="_blank">LG Content Store</a>.</strong></li>
+                  <li><strong><a href="https://www.sony.es/electronics/support/articles/00185493" target="_blank">Sony</a>.</strong></li>
+                </ul>
+                <p>Si tu televisor es inteligente, pero de otra marca; debes ingresar al sitio web del fabricante y buscar la página de soporte de tu televisor.</p>
+            </div>
+        	<div class="ex_info ex_tv">
+                <p>Los televisores más antiguos que no cuentan con acceso a internet directamente, pueden proyectar perfectamente la señal de Ibagué Ciudad Rock desde un computador conectado a través de un cable HDMI.</p>
+                <p class="txt_centro"><img src="https://www.profesionalreview.com/wp-content/uploads/2015/04/entrada-hdmi.jpg" /></p>
+                <p>Para hacer esto, necesitas:</p>
+                <ol>
+                  <li> Computador (portátil o de escritorio) con salida HDMI.</li>
+                  <li> Cable HDMI.</li>
+                  <li> TV con entrada HDMI.</li>
+                </ol>
+                <p>Teniendo estos elementos, puedes ver  <a href="https://www.youtube.com/watch?v=ztcFH-nbNt0" target="_blank">este tutorial</a>.</p>
+                <p>Si tu televisor no tiene entrada HDMI, pero cuenta con una entrada VGA; el proceso es similar pero requiere cables especiales:</p>
+                <p class="txt_centro"><img src="https://upload.wikimedia.org/wikipedia/commons/9/92/SVGA_port.jpg" /></p>
+                <p>Para hacer esto, necesitas:</p>
+                <ol>
+                  <li> Computador (portátil o de escritorio) con salida VGA disponible (normalmente es la que va al monitor).</li>
+                  <li> Cable VGA.</li>
+                  <li> TV con entrada VGA.</li>
+                  <li> Parlantes potentes para computador o subwoofer con conector jack 3.5 mm en estereo.</li>
+                </ol>
+                <p class="txt_centro"><img src="https://www.cablepelado.es/intranet/inventario/imagenes/conector-jack-35mm-estereo-macho.jpg" /></p>
+                <p>Teniendo estos elementos puedes ver  <a href="https://www.youtube.com/watch?v=gAb3acLwYmk" target="_blank">este tutorial</a>.</p>
+            </div>
+        	<div class="ex_info ex_pc">
+                <p>Si quieres ver el festival en tu computador solo debes ingresar a nuestras redes sociales:</p>
+                <ul>
+                  <li><a href="https://www.facebook.com/ibagueciudadrock/" target="_blank">facebook.com/ibaguediudadrock</a>.</li>
+                  <li><a href="http://bit.ly/ICRcanal" target="_blank">Youtube</a>.</li>
+                  <li><a href="https://ibagueciudadrock.com.co/">ibagueciudadrock.com.co</a>.</li>
+                </ul>
+                <p>En tu navegador favorito y darle play a la transmisión.</p>
+                <p>Durante los días del festival, estaremos ofreciendo los enlaces contínuamente, así que sólo debes permanecer atento.</p>
+            </div>
+        	<div class="ex_info ex_android">
+                <p>Si quieres verlo en tu móvil o tablet con sistema operativo android, sólo debes tener instaladas las aplicaciones oficiales actualizadas de Facebook o YouTube, las cuales puedes descargar directamente desde Play Store.</p>
+                <ul>
+                  <li> Descarga o Actualiza la <a href="https://play.google.com/store/apps/details?id=com.facebook.katana&hl=es_CO" target="_blank">App de Facebook</a>.  </li>
+                  <li> Descarga o Actualiza la <a href="https://play.google.com/store/apps/details?id=com.google.android.youtube&hl=es_CO" target="_blank">App de YouTube</a>.</li>
+                </ul>
+                <p><strong>Nota:<br />
+                </strong>Recomendamos visualizar la transmisión del festival desde la aplicación completa de Facebook y no en Facebook Lite.</p>
+                <p><strong>Recomendación:<br />
+                </strong>Ten cargado tu celular antes de comenzar la transmisión y ten un tomacorriente cerca, el espectáculo será larga y puede consumir más rápido la batería de tu móvil.</p>
+            </div>
+        	<div class="ex_info ex_apple">
+                <p>Si quieres verlo en tu móvil o tablet con sistema operativo iOS, sólo debes tener instaladas las aplicaciones oficiales actualizadas de Facebook o YouTube, las cuales puedes descargar directamente desde App Store.</p>
+                <ul>
+                  <li > Descarga o Actualiza la <a href="https://apps.apple.com/co/app/facebook/id284882215" target="_blank">App de Facebook</a>. </li>
+                  <li > Descarga o Actualiza la <a href="https://apps.apple.com/co/app/youtube/id544007664" target="_blank">App de YouTube</a>.  </li>
+                </ul>
+                <p><strong>Nota:</strong><br />
+                Recomendamos visualizar la transmisión del festival desde la aplicación completa de Facebook y no en Facebook Lite.</p>
+                <p><strong>Recomendación:<br />
+                </strong>Ten cargado tu celular antes de comenzar la transmisión y ten un tomacorriente cerca, el espectáculo será larga y puede consumir más rápido la batería de tu móvil.</p>
+            </div>
+		</div>
+    </div>
+
+<div id="preloader">
+	<div id="status"> </div>
+</div>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168718556-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-168718556-5');
+</script>
+
+<script type="text/javascript">
+$(window).load(function(){ 
+	$('#status').fadeOut();
+	$('#preloader').delay(350).fadeOut('slow'); 
+	//$('body').delay(350).css({'overflow-x':'hidden'});
+	/*
+	var ventana_ancho = $(window).width();
+	var ventana_alto = $(window).height();
+	alert(ventana_ancho + ' - ' + ventana_alto);
+	*/
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,183 @@
+/******************************************************************************************************************
+Ckm!
+Web, Apps & Multimedia
+www.ckm.co
+2011
+******************************************************************************************************************/
+
+@charset "utf-8";
+
+html, body {
+    height: 100%;
+}
+
+body  {
+	margin: 0;
+	padding: 0;
+	font: 94% 'PT Sans', Arial, Helvetica, sans-serif;
+	color: #000;
+	background: #FFF url(../_interfAz_CK!/fondo.png) center 45px fixed;
+/*	overflow-x: hidden;
+	overflow-y: hidden; */
+}
+
+a{
+	text-decoration: none;
+	outline: none;
+	transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.2s ease-out;
+}
+
+
+/************************************************************************************************/
+#header{
+	position: fixed;
+	z-index: 10;
+	display: block;
+	width: 100%;
+	height: 400px;
+	margin: 0;
+	padding: 20px 0 0 0;
+	background: transparent url(../_interfAz_CK!/diag_blanco.png) center -70px no-repeat;
+}
+
+#header img{ float: left; }
+
+
+.menu{
+	float: left;
+	display: block;
+	height: 120px;
+	margin: 0 0 0 20px;
+	padding: 20px 0 0 20px;
+	border-left: 1px solid #000;
+}
+
+.menu h1, #footer h1{
+	margin: 20px 0 0 0;
+	padding: 0 0 5px 0;
+	font-size: 120%;
+	color: #EF4D36;
+	border-bottom: 1px solid #999;
+}
+
+.menu h2, #footer h2{
+	margin: 8px 0 0 0;
+	font-weight: normal;
+	font-size: 100%;
+	color: #999;
+}
+
+
+#header div, #cuerpo{
+	margin: 0 auto;
+	display: block;
+	width: 960px;
+}
+
+#cuerpo{ padding-top: 151px; }
+
+.blan{
+	float: left;
+	display: block;
+	background: #FFF;
+/*	padding: 400px 0 0 0;
+	background: #FFF url(../_interfAz_CK!/contaduria.jpg) 0 0 no-repeat;*/
+}
+
+/************************************************************************************************/
+.contenidos{
+	float: left;
+	margin-top: -10px;
+	padding: 380px 30px 0 30px;
+	width: 900px;
+	background: url(../_interfAz_CK!/contaduria_1.jpg) center 0 no-repeat;
+}
+
+.actual{ height: 250px; /*background: red*/}
+
+.contenidos.c2{ background-image: url(../_interfAz_CK!/contaduria_2.jpg); }
+.contenidos.c3{ background-image: url(../_interfAz_CK!/contaduria_3.jpg); }
+
+
+.contenidos table{
+	width: 100%;
+	border-collapse:collapse;
+	margin-bottom: 15px;
+	border-left: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+}
+.contenidos table th{
+	padding: 3px 2px;
+	text-align: center;
+	background: #F0F0F0;
+	border-right: 1px solid #CCC;
+	border-bottom: 2px solid #CCC;
+}
+.contenidos table td{
+	padding: 2px 5px;
+	border-bottom: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+}
+
+
+/************************************************************************************************/
+.info{
+	float: left;
+	margin-right: 30px;
+	padding-top: 10px;
+	width: 435px;
+/*	background: blue; */
+}
+
+.info h1, .info h2, .info h3, .info h4, .info h5, .info h6{
+	margin: 10 0 5px 0;
+	font-weight: normal;
+	color: #EF4D36;
+}
+.info h1{ font-size: 140%; }
+
+.info p{ text-align: justify; }
+
+
+/************************************************************************************************/
+.aside{
+	float: left;
+	margin-top: -15px;
+	padding-bottom: 32px;
+	width: 435px;
+	background: url(../_interfAz_CK!/asideDw.png) 0 100% no-repeat;
+}
+
+.aside p{ margin: 0; }
+
+.aside img{
+	margin: 0;
+	padding-top: 32px;
+	width: 435px;
+	background: url(../_interfAz_CK!/asideUp.png) 100% 0 no-repeat;
+}
+
+
+/************************************************************************************************/
+#footer{
+	clear: left;
+	float: left;
+	display: block;
+	margin: 0;
+	padding: 20px 30px;
+	width: 900px;
+	background: #EF4D36 url(../_interfAz_CK!/diag_blanco.png) center -180px no-repeat;
+}
+
+#footer h1{ width: 360px; }
+
+#ckm{
+	float: right;
+	font-size: 70%;
+	text-align: right;
+}
+#ckm a{ color: #999; }
+#ckm a:hover{ color: #FFF; }

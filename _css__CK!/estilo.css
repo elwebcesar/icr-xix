@@ -1,0 +1,727 @@
+/* *******************************************************************************
+ckm.co - 2020
+******************************************************************************** */
+
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body{
+	width: 100%;
+	font: 98% 'Kumbh Sans', Arial, Helvetica, sans-serif;
+	color: #FFF;
+	background-color: #000;
+	overflow-x: hidden;
+}
+
+
+h2{
+	font-family: 'Carter One', Times, serif;
+    margin-bottom: 20px;
+}
+
+h3{
+	font-family: 'Carter One', Times, serif;
+    margin-bottom: 20px;
+	color: #FF0;
+	text-shadow: #006838 6px 0px 0px, #006838 5.91686px 0.995377px 0px, #006838 5.66974px 1.96317px 0px, #006838 5.2655px 2.87655px 0px, #006838 4.71532px 3.71022px 0px, #006838 4.03447px 4.44106px 0px, #006838 3.24181px 5.04883px 0px, #006838 2.35931px 5.51667px 0px, #006838 1.41143px 5.83163px 0px, #006838 0.424423px 5.98497px 0px, #006838 -0.574341px 5.97245px 0px, #006838 -1.55719px 5.79441px 0px, #006838 -2.49688px 5.45578px 0px, #006838 -3.36738px 4.96596px 0px, #006838 -4.14455px 4.33852px 0px, #006838 -4.80686px 3.59083px 0px, #006838 -5.33596px 2.74364px 0px, #006838 -5.71718px 1.8204px 0px, #006838 -5.93995px 0.84672px 0px, #006838 -5.99811px -0.150428px 0px, #006838 -5.89004px -1.14341px 0px, #006838 -5.61874px -2.1047px 0px, #006838 -5.19172px -3.00766px 0px, #006838 -4.62082px -3.82727px 0px, #006838 -3.92186px -4.54081px 0px, #006838 -3.11421px -5.12852px 0px, #006838 -2.22026px -5.57409px 0px, #006838 -1.26477px -5.86518px 0px, #006838 -0.274238px -5.99373px 0px, #006838 0.723898px -5.95617px 0px, #006838 1.70197px -5.75355px 0px, #006838 2.63288px -5.39147px 0px;
+}
+
+p{
+	margin-bottom: 20px;
+	line-height: 150%;
+}
+
+p.carter{
+	font: 120% 'Carter One', Times, serif;
+}
+
+.contenidos{
+	position: relative;
+	width: 100%;
+	min-height: 100%; 
+	heig\ht: 100%;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*********************************************************************************/
+/*********************************************************************************/
+
+.inicio{
+	/*
+	background: #e7c98e;
+	background: -moz-linear-gradient(top, #e7c98e 0%, #1d3404 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #e7c98e), color-stop(100%, #1d3404));
+	background: -webkit-linear-gradient(top, #e7c98e 0%, #1d3404 100%);
+	background: -o-linear-gradient(top, #e7c98e 0%, #1d3404 100%);
+	background: -ms-linear-gradient(top, #e7c98e 0%, #1d3404 100%);
+	background: linear-gradient(to bottom, #e7c98e 0%, #1d3404 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7c98e', endColorstr='#1d3404', GradientType=0 );
+	*/
+
+/*
+	background-image: url(https://mdn.mozillademos.org/files/11305/firefox.png), url(https://mdn.mozillademos.org/files/11307/bubbles.png), linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: bottom right, left, right;
+	background: -moz-linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0)), 
+				-webkit-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0)), 
+				-ms-linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0)), 
+				linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+
+	background: -moz-linear-gradient(top, #e7c98e 0%, #1d3404 100%),
+				-webkit-gradient(left top, left bottom, color-stop(0%, #e7c98e), color-stop(100%, #1d3404)),
+				-ms-linear-gradient(top, #e7c98e 0%, #1d3404 100%),
+				linear-gradient(to bottom, #e7c98e 0%, #1d3404 100%);
+
+*
+	background:	url(https://mdn.mozillademos.org/files/11305/firefox.png) bottom right no-repeat,
+				url(https://mdn.mozillademos.org/files/11307/bubbles.png) center no-repeat,
+				linear-gradient(to bottom, #e7c98e 0%, #1d3404 100%);
+*/
+
+	background:	url(../_interfAz_CK!/rayabk.png),
+				linear-gradient(to bottom, #e7c98e 0%, #1d3404 100%);
+
+}
+.inicio.girl{
+	background:	url(../_interfAz_CK!/rayabk.png),
+				linear-gradient(to bottom, #a3dbea 0%, #12255c 100%);
+}
+
+
+.inicio .header{
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+}
+
+.inicio .header img{
+	max-width: 100%;
+}
+
+.inicio .ventana{
+	position: absolute;
+	z-index: 1;
+	left: 50%;
+    top: 50%;
+/*	margin: -24% 0 0 -360px;*/
+	width: 100%;
+	height: 446px;
+	background: url(../_interfAz_CK!/ventana.png) center center no-repeat;
+
+    -webkit-transform: translate(-50%, -92%);
+    transform: translate(-50%, -92%);
+
+	/*
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+	*/
+}
+
+.inicio .piso{
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	width: 100%;
+	height: 44%;
+	background: linear-gradient(to bottom, #492500 0%, #492500 21%, #331900 100%);
+/*
+background: #492500;
+background: -moz-linear-gradient(top, #492500 0%, #492500 21%, #331900 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, #492500), color-stop(21%, #492500), color-stop(100%, #331900));
+background: -webkit-linear-gradient(top, #492500 0%, #492500 21%, #331900 100%);
+background: -o-linear-gradient(top, #492500 0%, #492500 21%, #331900 100%);
+background: -ms-linear-gradient(top, #492500 0%, #492500 21%, #331900 100%);
+background: linear-gradient(to bottom, #492500 0%, #492500 21%, #331900 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#492500', endColorstr='#331900', GradientType=0 );
+*/
+}
+
+.inicio .reflejo{
+	position: absolute;
+	z-index: 5;
+	width: 100%;
+	min-height: 100%; 
+	heig\ht: 100%;
+	background-color: rgba(255,255,255,0.1);
+}
+
+.inicio .caras, .inicio .girls{
+	position: absolute;
+	z-index: 4;
+	left: 50%;
+    top: 50%;
+	display: none;
+
+    transform: translate(-50%, -52%);
+}
+.inicio.man .caras{
+	display: block;
+}
+.inicio.girl .girls{
+	display: block;
+}
+
+
+.inicio .luces{
+	position: absolute;
+	z-index: 5;
+	bottom: -160px;
+	width: 100%;
+	height: 800px;
+	max-height: 860px;
+	background: url(../_interfAz_CK!/luces.png) center center no-repeat;
+}
+
+[class^=haz-]{
+	position: absolute;
+    left: 50%;
+	background: url(../_interfAz_CK!/haz01.svg) center center no-repeat;
+    transform: translateX(-50%);
+}
+.inicio .haz-01{
+	z-index: 6;
+	bottom: 54px;
+	width: 100%;
+	height: 316px;
+	background-image: url(../_interfAz_CK!/haz01.svg) center center no-repeat;
+}
+.inicio .haz-02{
+	z-index: 7;
+	bottom: 19px;
+	width: 100%;
+	height: 384px;
+	background: url(../_interfAz_CK!/haz02.svg) center center no-repeat;
+}
+.inicio .haz-03{
+	z-index: 8;
+	bottom: -28px;
+	width: 100%;
+	height: 481px;
+	background: url(../_interfAz_CK!/haz03.svg) center center no-repeat;
+}
+.inicio .haz-04{
+	z-index: 8;
+	bottom: -127px;
+	width: 100%;
+	height: 732px;
+	background: url(../_interfAz_CK!/haz04.svg) center center no-repeat;
+}
+.inicio .haz-05{
+	z-index: 9;
+	bottom: -216px;
+	width: 100%;
+	height: 907px;
+	background: url(../_interfAz_CK!/haz05.svg) center center no-repeat;
+}
+
+
+.inicio .tv{
+	position: absolute;
+	z-index: 10;
+	left: 50%;
+	bottom: 0;
+	width: 438px;
+	height: 330px;
+    transform: translateX(-50%);
+}
+.inicio .tv img{
+	width: 100%;
+}
+
+.live{
+	display: none;
+
+	position: absolute;
+	z-index: 11;
+    left: 50%;
+	bottom: 15px;
+    transform: translateX(-50%);
+	width: 600px;
+	height: 338px;
+	background-color: #000;
+	border: 4px solid #000;
+	border-radius: 6px;
+}
+.live iframe{
+	width: 100%;
+	height: 100%;
+}
+
+
+.menu{
+	position: fixed;
+	z-index: 100;
+	top: 10;
+	right: 10px;
+}
+
+.endirecto{
+	position: absolute;
+	z-index: 100;
+	top: 5px;
+	right: 70px;
+}
+
+/*********************************************************************************/
+/*********************************************************************************/
+
+.streaming{
+	z-index: 10;
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/*********************************************************************************/
+/*********************************************************************************/
+
+.el-festival{
+	z-index: 4;
+	background: #000 url("../_interfAz_CK!/icr-punketo.jpg") 25% center no-repeat fixed;
+}
+
+.marquee{
+  width: 100%;
+  overflow: hidden;
+}
+
+/*********************************************************************************/
+/*********************************************************************************/
+
+.lineup{
+	z-index: 4;
+	background: #482400 url("../_interfAz_CK!/pump.png") center center no-repeat;
+}
+
+.lineup .centro{
+	max-width: 1600px;
+}
+
+.lineup button{
+	color: #FFF;
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+.lineup figure{
+	border: 5px solid #006838;
+	border-radius: 6px;
+}
+
+.lineup img{
+	width: 100%;
+	max-width: 100%;
+	border: 5px solid #FF0;
+	border-radius: 3px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	/*
+	outline: 5px solid #006838;
+	border-radius: 3px;
+	*/
+}
+
+.lineup button h4{
+	position: relative;
+	z-index: 1;
+	margin-top: -26px;
+	font: 170% 'Carter One', Times, serif;
+	text-shadow: #000 6px 0px 0px, #000 5.91686px 0.995377px 0px, #000 5.66974px 1.96317px 0px, #000 5.2655px 2.87655px 0px, #000 4.71532px 3.71022px 0px, #000 4.03447px 4.44106px 0px, #000 3.24181px 5.04883px 0px, #000 2.35931px 5.51667px 0px, #000 1.41143px 5.83163px 0px, #000 0.424423px 5.98497px 0px, #000 -0.574341px 5.97245px 0px, #000 -1.55719px 5.79441px 0px, #000 -2.49688px 5.45578px 0px, #000 -3.36738px 4.96596px 0px, #000 -4.14455px 4.33852px 0px, #000 -4.80686px 3.59083px 0px, #000 -5.33596px 2.74364px 0px, #000 -5.71718px 1.8204px 0px, #000 -5.93995px 0.84672px 0px, #000 -5.99811px -0.150428px 0px, #000 -5.89004px -1.14341px 0px, #000 -5.61874px -2.1047px 0px, #000 -5.19172px -3.00766px 0px, #000 -4.62082px -3.82727px 0px, #000 -3.92186px -4.54081px 0px, #000 -3.11421px -5.12852px 0px, #000 -2.22026px -5.57409px 0px, #000 -1.26477px -5.86518px 0px, #000 -0.274238px -5.99373px 0px, #000 0.723898px -5.95617px 0px, #000 1.70197px -5.75355px 0px, #000 2.63288px -5.39147px 0px, #000 3.49082px -4.87998px 0px, #000 4.25202px -4.23324px 0px, #000 4.89538px -3.46919px 0px, #000 5.40307px -2.60899px 0px, #000 5.76102px -1.67649px 0px, #000 5.95932px -0.697531px 0px;
+	text-shadow: #000 5px 0px 0px, #000 4.90033px 0.993347px 0px, #000 4.60531px 1.94709px 0px, #000 4.12668px 2.82321px 0px, #000 3.48353px 3.58678px 0px, #000 2.70151px 4.20736px 0px, #000 1.81179px 4.6602px 0px, #000 0.849836px 4.92725px 0px, #000 -0.145998px 4.99787px 0px, #000 -1.13601px 4.86924px 0px, #000 -2.08073px 4.54649px 0px, #000 -2.94251px 4.04248px 0px, #000 -3.68697px 3.37732px 0px, #000 -4.28444px 2.57751px 0px, #000 -4.71111px 1.67494px 0px, #000 -4.94996px 0.7056px 0px, #000 -4.99147px -0.291871px 0px, #000 -4.83399px -1.27771px 0px, #000 -4.48379px -2.2126px 0px, #000 -3.95484px -3.05929px 0px, #000 -3.26822px -3.78401px 0px, #000 -2.4513px -4.35788px 0px, #000 -1.53666px -4.75801px 0px, #000 -0.560763px -4.96845px 0px, #000 0.437495px -4.98082px 0px, #000 1.41831px -4.79462px 0px, #000 2.34258px -4.41727px 0px, #000 3.17346px -3.86382px 0px, #000 3.87783px -3.15633px 0px, #000 4.4276px -2.32301px 0px, #000 4.80085px -1.39708px 0px, #000 4.98271px -0.415447px 0px;
+}
+
+.lineup button:hover{
+	color: #000;
+}
+.lineup button:hover figure{
+	border-color: #FF0;
+}
+.lineup button:hover img{
+	border-color: #006838;
+}
+.lineup button:hover h4{
+	text-shadow: #F19300 5px 0px 0px, #F19300 4.90033px 0.993347px 0px, #F19300 4.60531px 1.94709px 0px, #F19300 4.12668px 2.82321px 0px, #F19300 3.48353px 3.58678px 0px, #F19300 2.70151px 4.20736px 0px, #F19300 1.81179px 4.6602px 0px, #F19300 0.849836px 4.92725px 0px, #F19300 -0.145998px 4.99787px 0px, #F19300 -1.13601px 4.86924px 0px, #F19300 -2.08073px 4.54649px 0px, #F19300 -2.94251px 4.04248px 0px, #F19300 -3.68697px 3.37732px 0px, #F19300 -4.28444px 2.57751px 0px, #F19300 -4.71111px 1.67494px 0px, #F19300 -4.94996px 0.7056px 0px, #F19300 -4.99147px -0.291871px 0px, #F19300 -4.83399px -1.27771px 0px, #F19300 -4.48379px -2.2126px 0px, #F19300 -3.95484px -3.05929px 0px, #F19300 -3.26822px -3.78401px 0px, #F19300 -2.4513px -4.35788px 0px, #F19300 -1.53666px -4.75801px 0px, #F19300 -0.560763px -4.96845px 0px, #F19300 0.437495px -4.98082px 0px, #F19300 1.41831px -4.79462px 0px, #F19300 2.34258px -4.41727px 0px, #F19300 3.17346px -3.86382px 0px, #F19300 3.87783px -3.15633px 0px, #F19300 4.4276px -2.32301px 0px, #F19300 4.80085px -1.39708px 0px, #F19300 4.98271px -0.415447px 0px;
+}
+
+/*********************************************************************************/
+/*********************************************************************************/
+
+.experiencia{
+	background: #005625;
+}
+
+.experiencia .centro, .experiencia .skin{
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+}
+.experiencia .skin{
+	z-index: 1;
+	opacity: 0.3;
+}
+
+.experiencia .figure{
+	margin-bottom: 20px !important;
+}
+
+.experiencia ul, .footer ul{
+	display: inline-block;
+	margin-top: 30px;
+}
+.experiencia ul li, .footer ul li{
+	display: inline-block;
+	vertical-align: middle;
+}
+.experiencia ul li{
+	margin: 20px;
+}
+
+.experiencia button{
+	cursor: pointer;
+	background: none;
+	border: none;
+}
+
+.experiencia button img{
+	height: 40px;
+	opacity: 0.6;
+}
+.experiencia button:hover img{
+	opacity: 1;
+	transform: scale(1.2);
+}
+
+.experiencia button h5{
+	padding-top: 10px;
+	color: #CCC;
+}
+.experiencia button:hover h5{
+	color: #FFF;
+}
+
+/*********************************************************************************/
+/*********************************************************************************/
+
+.programacion{
+	z-index: 14;
+	background: #A337A9 url("../_interfAz_CK!/pump2.png") center center no-repeat;
+}
+
+.programacion table, .programacion table td{
+	border: none;
+}
+
+.programacion table td:first-child{
+	width: 50%;
+    text-align: right;
+    border-right: 1px solid #FF0;
+}
+
+.programacion table tr:nth-child(even){
+	background: rgba(0,0,0,0.2);
+}
+
+/*********************************************************************************/
+/*********************************************************************************/
+
+.sponsors{
+	z-index: 4;
+	background: #F39400 url("../_interfAz_CK!/icr-mechon.jpg") 85% center no-repeat;
+}
+
+.sponsors ul{
+	display: inline-block;
+}
+.sponsors ul li{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 70px 35px 0;
+}
+
+.sponsors ul li img{
+	max-width: 100%;
+	height: auto;
+}
+
+.sponsors ul li a:hover img, .footer ul li a:hover img, .modal .info a:hover img, .endirecto a:hover img{
+	transform: scale(0.9);
+}
+
+/*********************************************************************************/
+/*********************************************************************************/
+
+.dias{
+	min-height: 100% !important; 
+	heig\ht: 100% !important;
+}
+
+.dias a{
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+	height: 200px;
+	background: url(../_interfAz_CK!/dia1.gif) center center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	border: 6px solid #006838;
+	border-radius: 6px;
+}
+
+.dias a.dia2{
+	background-image: url(../_interfAz_CK!/dia2.gif);
+}
+
+.dias a h3{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	font-size: 500%;
+	transform: translateY(-50%);
+}
+
+.dias a:hover{
+	border-color: #FF0;
+}
+
+.dias a:hover h3{
+	font-size: 700%;
+	color: #FFF;
+}
+
+/*********************************************************************************/
+/*********************************************************************************/
+
+.footer{
+	background-color: #424252;
+}
+
+/*********************************************************************************/
+/*********************************************************************************/
+
+.ir-arriba{
+    position: fixed;
+	z-index: 20;
+    bottom: 0;
+    right: 10px;
+	padding: 5px;
+	cursor: pointer;
+	background: #000;
+	border: none;
+}
+
+.ir-arriba span{
+	float: left;
+	height: 5px;
+	border-style: solid;
+	border-width: 0 20px 30px 20px;
+	border-color: transparent transparent #005722 transparent;
+}
+
+
+.ir-arriba:hover span{
+	border-bottom-color: #F19300;
+}
+
+/*********************************************************************************/
+/*********************************************************************************/
+
+.overlay{
+	display: none;
+	position: fixed;
+	z-index: 1001;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.7);
+}
+
+.modal{
+	display: none;
+	position: fixed;
+	z-index:1002;
+	top: 5%;
+	left: 10%;
+	width: 80%;
+	height: 90%;
+	padding: 0;
+	background-color: #424251;
+	background-image: url(../_interfAz_CK!/haz05.svg), url(../_interfAz_CK!/haz04.svg), url(../_interfAz_CK!/haz03.svg);;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: center, center, center;
+}
+
+.modal .info{
+	padding-bottom: 20px;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.modal .info.inicial{
+	padding: 0;
+}
+
+
+.modal .info img{
+	width: auto;
+	border: none;
+}
+
+.modal .info h2{
+	margin: 20px 0 10px 0;
+	font-size: 200%
+}
+.modal .info p{
+	margin: 20px 0 0 0;
+	padding: 0 40px;
+	line-height: 140%;
+	text-align: justify;
+}
+
+.modal .info hr{
+	float: inherit;
+	margin: 20px auto;
+	width: 50%;
+}
+.modal .info hr.end{
+	width: 15%;
+}
+
+.modal .info a{
+	margin: 0 8px;
+}
+
+.modal .cerrar.close{
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 10px;
+	width: 50px;
+	height: 50px;
+	background-color: #BD0825;
+	border: none;
+}
+.modal .cerrar.close:before, .modal .cerrar.close:after{
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	margin-top: -2px;
+	content: '';
+	width: 30px;
+	height: 5px;
+	background-color: #F19300;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+.modal .cerrar.close:after{
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.modal .cerrar.close:hover{
+	background-color: #005527;
+}
+.modal .cerrar.close:hover:before, .modal .cerrar.close:hover:after{
+	background-color: #FFF;
+}
+
+
+.modal .exper{
+	display: block;
+	padding: 50px;
+	height: calc(100% - 100px);
+	overflow: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.modal .exper img{
+	height: 90px;
+}
+
+.modal .exper h2{
+	margin: 0 auto 50px auto;
+	padding-bottom: 10px;
+	width: 50%;
+	border-bottom: 1px solid #CCC;
+}
+
+.modal .exper .ex_info ul, .modal .exper .ex_info ol{
+	margin-bottom: 15px;
+}
+.modal .exper .ex_info li{
+	margin-bottom: 5px;
+}
+.modal .exper .ex_info a{
+	color: #CCC;
+}
+.modal .exper .ex_info a:hover{
+	color: #CCC;
+}
+
+.modal .exper .ex_info img{
+    padding: 5px;
+    border: 3px solid #333;
+	border-radius: 3px;
+}
+
+/*********************************************************************************/
+/*********************************************************************************/
+
+#preloader{
+	position: fixed;
+	z-index:1002;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#000;
+}
+
+#status{
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin: -81px 0 0 -72px;
+	width: 154px;
+	height: 163px;
+	background:url(../_interfAz_CK!/icr.gif) center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}

@@ -1,0 +1,340 @@
+/* *******************************************************************************
+ckm.co - 2020
+******************************************************************************** */
+
+@media all and (max-height: 770px){
+	.inicio .tv{
+		width: 400px;
+		height: 301px;
+	}
+
+	.live{
+		width: 533px;
+		height: 300px;
+	}
+
+	.lineup{
+		min-height: 120%;
+		heig\ht: 120%;
+	}
+}
+
+@media all and (max-height: 670px){
+	.el-festival .col-3{
+		display: none;
+	}
+	.el-festival .col-9{
+		width: 100%;
+	}
+
+	.lineup{
+		min-height: 160%;
+		heig\ht: 160%;
+	}
+	
+	.programacion{
+		min-height: 110%;
+		heig\ht: 110%;
+	}
+}
+
+@media all and (max-height: 620px){
+	.el-festival, .experiencia{
+		min-height: 140%;
+		heig\ht: 140%;
+	}
+}
+
+@media all and (max-height: 520px){
+	.lineup{
+		min-height: 170%;
+		heig\ht: 170%;
+	}
+}
+
+@media all and (max-height: 490px){
+	.inicio .caras, .inicio .girls{
+		top: 40%
+	}
+
+	.dias a{
+		height: 150px;
+	}
+}
+
+@media all and (max-height: 450px){
+	.lineup{
+		min-height: 200%;
+		heig\ht: 200%;
+	}
+
+	.experiencia{
+		min-height: 220%;
+		heig\ht: 220%;
+	}
+
+	.programacion, .sponsors{
+		min-height: 140%;
+		heig\ht: 140%;
+	}
+}
+
+@media all and (max-height: 400px){
+	.el-festival{
+		min-height: 190%;
+		heig\ht: 190%;
+	}
+	
+	.programacion{
+		min-height: 170%;
+		heig\ht: 170%;
+	}
+
+	.lineup{
+		min-height: 150%;
+		heig\ht: 150%;
+	}
+
+	.dias a{
+		height: 100px;
+	}
+}
+
+@media all and (max-height: 330px){
+	.el-festival{
+		min-height: 205%;
+		heig\ht: 205%;
+	}
+
+	.lineup{
+		min-height: 380%;
+		heig\ht: 380%;
+	}
+}
+
+@media all and (max-height: 380px){
+	.sm-ckm a, .sm-ckm a:hover, .sm-ckm a:focus, .sm-ckm a:active{
+		padding-top: 9px;
+		padding-bottom: 9px;
+	}
+}
+
+@media all and (max-height: 330px){
+	.inicio .header{
+		margin-top: 0 !important;
+	}
+
+	.inicio .header img{
+		max-width: 270px;
+	}
+}
+
+
+
+
+@media all and (max-width: 1280px){
+	.el-festival{
+		background-position: center center;
+	}
+}
+
+@media all and (max-width: 1200px){
+	.el-festival .centro, .experiencia .centro, .sponsors .centro{
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+}
+
+@media all and (max-width: 1150px){
+	.sponsors .col-8{
+		width: 80%;
+	}
+}
+
+@media all and (max-width: 900px){
+	.grillaflex > div{
+		padding: 5px;
+	}
+	
+	.lineup .an25 figure, .lineup .an25 img{
+		border-width: 3px;
+	}
+
+	.programacion{
+		min-height: 130%;
+		heig\ht: 130%;
+	}
+
+	.sponsors .col-8{
+		width: 100%;
+	}
+}
+
+@media all and (max-width: 700px){
+	.el-festival svg{
+		transform: scale(0.8)
+	}
+
+	.grillaflex.an20 > div{
+	    width: 25%;
+	}
+
+	.lineup .an25 button h4{
+		font-size: 170%;
+	}
+
+	.programacion{
+		min-height: 160%;
+		heig\ht: 160%;
+	}
+}
+
+@media all and (max-width: 580px){
+	.inicio .header{
+		margin-top: 30px;
+	}
+
+	.inicio .tv{
+		width: 359px;
+		height: 270px;
+	}
+
+	.live{
+		width: 480px;
+		height: 270px;
+	}
+
+	.grillaflex.an20 > div{
+	    width: 33.3333333%;
+	}
+
+	.programacion{
+		min-height: 250%;
+		heig\ht: 250%;
+	}
+
+	.programacion .col-6{
+		width: 100%;
+	}
+
+	.sponsors ul li{
+		margin: 0 10px 15px 0;
+	}
+}
+
+@media all and (max-width: 490px){
+	.inicio .caras img, .inicio .girls img{
+		margin-left: -70%;
+		width: 246%;
+	}
+
+	.inicio .tv{
+		width: 346px;
+		height: 260px;
+	}
+
+	.live{
+		width: 400px;
+		height: 225px;
+	}
+
+	.grillaflex.an20 > div{
+	    width: 50%;
+	}
+	.lineup button h4{
+		line-height: 100%;
+	}
+
+	.modal .info p {
+		padding: 0 20px;
+	}
+
+	.sponsors ul li{
+		margin: 0 0 15px 0;
+	}
+}
+
+@media all and (max-width: 400px){
+	.inicio .tv{
+		width: 320px;
+		height: 240px;
+	}
+
+	.el-festival, .experiencia{
+		min-height: 160%;
+		heig\ht: 160%;
+	}
+
+	.lineup{
+		min-height: 190%;
+		heig\ht: 190%;
+	}
+}
+
+@media all and (max-width: 330px){
+	.inicio .header {
+		margin-top: 35px;
+	}
+
+	.inicio .tv{
+		bottom: 1px;
+		width: 310px;
+		height: 233px;
+	}
+
+	.live{
+		width: 310px;
+		height: 233px;
+	}
+
+	.el-festival, .lineup, .experiencia{
+		min-height: 220%;
+		heig\ht: 220%;
+	}
+
+	.programacion{
+		min-height: 280%;
+		heig\ht: 280%;
+	}
+	
+	.sponsors{
+		min-height: 110%;
+		heig\ht: 110%;
+	}
+}
+
+/*
+@media only screen and (min-width:320px) and (max-width:570px){
+	.inicio .caras img, .inicio .girls img{
+		margin-left: -74%;
+		width: 246%;
+	}
+
+	.inicio .tv{
+		width: 239px;
+		height: 180px;
+	}
+}
+
+
+@media only screen and (min-width:320px) and (max-width:480px){
+	.inicio .tv{
+		width: 239px;
+		height: 180px;
+	}
+
+	.el-festival{
+		min-height: 200%;
+		heig\ht: 200%;
+	}
+
+	.lineup{
+		min-height: 260%;
+		heig\ht: 260%;
+	}
+
+	.sponsors{
+		min-height: 140%;
+		heig\ht: 140%;
+	}
+}
